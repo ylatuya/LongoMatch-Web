@@ -77,8 +77,14 @@
           </table>
         </li>
         <li>
-          <a href="http://lh5.ggpht.com/_-4n_Cwtmed0/S7pzCILWCII/AAAAAAAAAb0/Q-oCbG50NcM/s800/playlist.png" rel="lightbox" title="Use the playlist to group your favorite plays an render them into new clips" ><img src="http://www.longomatch.ylatuya.es/screenshots/playlist-th.png" /></a>
-          <h3>Use the playlist to group your favorite plays an render them into new clips</h3>
+          <table id="wrapper">
+            <tr>
+              <td>
+                <a href="http://lh5.ggpht.com/_-4n_Cwtmed0/S7pzCILWCII/AAAAAAAAAb0/Q-oCbG50NcM/s800/playlist.png" rel="lightbox" title="Use the playlist to group your favorite plays an render them into new clips" ><img src="http://www.longomatch.ylatuya.es/screenshots/playlist-th.png" /></a>
+                <h3>Use the playlist to group your favorite plays an render them into new clips</h3>
+              </td>
+            </tr>
+          </table>
         </li>
       </ul>
     </div>
