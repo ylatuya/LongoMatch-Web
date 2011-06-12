@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 
     <script type='text/javascript'>
-    $(document).ready(function(){
-        $(".tweet").tweet({
-            username: "longomatch",
-            join_text: "auto",
-            intro_text: "recent tweets",
-            avatar_size: 32,
-            count: 5,
-            loading_text: "loading tweets..."
-        });
-    });
+    /* $(document).ready(function(){
+    /*     $(".tweet").tweet({
+    /*         username: "longomatch",
+    /*         join_text: "auto",
+    /*         intro_text: "recent tweets",
+    /*         avatar_size: 32,
+    /*         count: 5,
+    /*         loading_text: "loading tweets..."
+    /*     });
+    /* });*/
 </script>
 </head>
 <body>

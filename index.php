@@ -3,8 +3,8 @@ $page = 'home';
 include "header.php"
 ?>
     <div id="content">
-      <div id="feature-info">
-        <div id="inner-feature-info">
+      <div id="container">
+        <div id="inner-container" class="home">
           <div id="watch">
             <img src="img/watch.png" alt="Use longomatch and go back in time!"/>
           </div>
