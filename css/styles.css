@@ -93,7 +93,22 @@ h3 { font-weight: normal; }
 #news #social p em, p.author { color: #91b74a; font-style: normal; }
 
 ul#screenshots { list-style: none; width: 85%; height: 100%; margin: 0 auto;  }
-ul#screenshots li { float:left; width: 46%; margin: 2%; text-align: center; background-color: #6e6e6e; color: white; border-radius: 4px; -ms-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; padding-top: 4%; padding-bottom: 4%; }
+ul#screenshots li { 
+                    float:left; 
+                    width: 46%; 
+                    text-align: center; 
+                    background-color: #6e6e6e; 
+                    color: white; 
+                    border-radius: 4px; 
+                    -ms-border-radius: 4px; 
+                    -moz-border-radius: 4px; 
+                    -webkit-border-radius: 4px; 
+                    -khtml-border-radius: 4px; 
+                    height: 303px; 
+                    padding-top: 20px; 
+                    padding-bottom: 20px; 
+                    margin: 15px;
+}
 ul#screenshots li:hover { background-color: #333333; 
 		-moz-box-shadow: 3px 3px 4px #000;
 		-webkit-box-shadow: 3px 3px 4px #000;
@@ -103,9 +118,19 @@ ul#screenshots li:hover { background-color: #333333;
 		/* For IE 5.5 - 7 */
 		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
-ul#screenshots h3 { text-align: center; display: block; margin-top: 1.5ex; 
+ul#screenshots li a { height: 230px; }
+ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.5ex auto; }
+#wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
 }
-
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
 #footer { clear: both; background-color: #292929; padding:2ex; text-align: center; color: #737373; font-weight: bold; }
 
 
