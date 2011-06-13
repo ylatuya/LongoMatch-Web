@@ -45,8 +45,9 @@
     <li class="<?php if ($page == 'home') print 'current' ?>"><a href="index.php">HOME</a></li>
     <li class="<?php if ($page == 'features') print 'current' ?>"><a href="features.php">FEATURES</a></li>
     <li class="<?php if ($page == 'screenshots') print 'current' ?>"><a href="screenshots.php">SCREENSHOTS</a></li>
+    <li class="<?php if ($page == 'downloads') print 'current' ?>"><a href="downloads.php">DOWNLOADS</a></li>
     <li class="<?php if ($page == 'forum') print 'current' ?>"><a href="forum.php">FORUM</a></li>
-    <li class="<?php if ($page == 'docs') print 'current' ?>"><a href="docs.php">DOCS</a></li>
+    <li class="<?php if ($page == 'contributors') print 'current' ?>"><a href="contributors.php">CONTRIBUTORS</a></li>
   </ul>
 </div>
 </div>
