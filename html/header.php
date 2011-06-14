@@ -32,7 +32,7 @@
 <body>
 <div id="header">
 <div id="logo">
-  <a href="./index.html" title="LongoMatch - The digital coach"><img src="img/logo.png" alt="longomatch logo"/></a>
+  <a href="./index.php" title="LongoMatch - The digital coach"><img src="img/logo.png" alt="longomatch logo"/></a>
 </div>
 <div id="header-menu">
   <h1>LongoMatch - The digital coach</h1>
