@@ -95,7 +95,7 @@ h3 { font-weight: normal; }
 ul#screenshots { list-style: none; width: 85%; height: 100%; margin: 0 auto;  }
 ul#screenshots li { 
                     float:left; 
-                    width: 46%; 
+                    width: 45%; 
                     text-align: center; 
                     background-color: #6e6e6e; 
                     color: white; 
