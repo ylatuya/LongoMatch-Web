@@ -96,6 +96,7 @@ ul#screenshots { list-style: none; width: 85%; height: 100%; margin: 0 auto;  }
 ul#screenshots li { 
                     float:left; 
                     width: 45%; 
+                    min-width: 303px;
                     text-align: center; 
                     background-color: #6e6e6e; 
                     color: white; 
