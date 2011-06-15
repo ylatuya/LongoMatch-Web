@@ -5,10 +5,15 @@
 <div id="content">
   <div id="container">
     <div id="inner-container" class="no-home">
-      <h1>LongoMatch, sports video analysys made easy</h1>
-      <p>LongoMatch is a sports video analysis tool for coaches and sports analysts, to assist them in making games video analysis. It simplifies video analysis by providing a set of intuitive tools to tag, review and edit the most important plays of the game. It allows to group plays by categories and adjust the lead and lag time of each play frame by frame through a timeline. It also has support for playlists, an easy way to create presentations with plays from different games and provides a video editor to render new videos with your favourite ones. Even if it is primary focused to sports, LongoMatch can be used for any task that requires tagging and reviewing segments of a video file, and can be applied to fields like cinema, medics or conferences.
+      <h3>• LongoMatch, sports video analysys made easy •</h3>
+      <div id="text-block">
+      <p>LongoMatch is a sports video analysis tool for coaches and sports analysts, to assist them in making games video analysis. </p>
+<p>It simplifies video analysis by providing a set of intuitive tools to tag, review and edit the most important plays of the game. It allows to group plays by categories and adjust the lead and lag time of each play frame by frame through a timeline. It also has support for playlists, an easy way to create presentations with plays from different games and provides a video editor to render new videos with your favourite ones. </p>
+<p>Even if it is primary focused to sports, LongoMatch can be used for any task that requires tagging and reviewing segments of a video file, and can be applied to fields like cinema, medics or conferences.</p>
       </p>
-      <h1>Features</h1>
+    </div>
+      <h3>• Features •</h3>
+      <div id="text-block">
       <p>
         <ul id="list">
           <li>Friendly graphical user interface</li>
@@ -30,6 +35,7 @@
           <li>Multiplatform (Linux, FreeBSD, Windows,...)</li>
         </ul>
       </p>
+      </div>
     </div>
   </div>
 </div>

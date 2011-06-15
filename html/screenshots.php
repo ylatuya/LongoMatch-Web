@@ -11,7 +11,7 @@
             <tr>
               <td>
                 <a href="http://lh6.ggpht.com/_-4n_Cwtmed0/S7pzB4_Es7I/AAAAAAAAAbs/mYTtGKSVQ3w/s800/tag.png" rel="lightbox" title="Tag plays in different categories and review them with a single click" ><img src="http://www.longomatch.ylatuya.es/screenshots/tag-th.png" /></a>
-                <h3>Tag plays in different categories and review them with a single click</h3>
+                <h3><em>Tag</em> plays in different <em>categories</em> and <em>review</em> them with a single <em>click</em></h3>
               </td>
             </tr>
           </table>

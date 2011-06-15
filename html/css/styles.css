@@ -8,8 +8,10 @@ vertical-align:baseline;
 
 body { font-family: Tahoma, Arial, Verdana; }
 
-h3 { font-weight: normal; }
-
+h3 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; }
+h1 { color: color: #545454;; font-weight: bold; }
+em {  font-style:  normal; font-weight: bold; }
+code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
 #header { background-color: #333; }
 
 #logo { float: left; background: url('../img/tira_logo.png') repeat-x; width: 8.3%; height: 105px; text-align-center; border-right: 1px solid #85a753; }
@@ -40,8 +42,14 @@ h3 { font-weight: normal; }
 #inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
 #inner-container h2 { font-size: 250%; text-align: right; width: 80%; font-weight: normal; } 
 #inner-container h1 em, h2 em { font-weight: bold; font-style: normal; } 
-#inner-container.no-home { float: left; }
+#inner-container.no-home { float: left; padding-left: 2em; padding-right: 2em; color: #545454; }
+#inner-container.no-home h1 { margin-top: 1ex; padding: 0; border-bottom: 5px dotted #545454; padding-bottom: .2ex; display: block; }
+#inner-container.no-home h2 { font-size: 100%; font-weight: normal;  }
+#inner-container.no-home p:last-child { margin-bottom: 3ex;  }  
+#inner-container.no-home p { font-size: 120%; margin-bottom: 1ex;  } 
+#inner-container.no-home #text-block li { margin-bottom: 2ex;  } 
 
+#text-block { width: 90%; margin: 0 auto;  }
 #watch { float: left;  }
 #watch img { height: 300px; }
 
@@ -120,7 +128,7 @@ ul#screenshots li:hover { background-color: #333333;
 		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
 ul#screenshots li a { height: 230px; }
-ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.5ex auto; }
+ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.5ex auto!important; font-size: 100%; }
 #wrapper {
    height:100%;
    width: 100%;
@@ -138,6 +146,8 @@ ul#downloads { list-style-type: None; margin: 0; padding: 0 }
 
 ul#downloads {color: white}
 
+ul#downloads > li:first-child { margin-left: 0; }
+
 ul#downloads li{
                     float: left;
                     text-align: center; 
@@ -148,7 +158,13 @@ ul#downloads li{
                     -moz-border-radius: 4px; 
                     -webkit-border-radius: 4px; 
                     -khtml-border-radius: 4px;
+                    margin: 2ex 2ex 0 2ex;
+                    padding: 1.5ex;
+                    text-align: center;
+                    width: 5em;
 }
+
+ul#downloads li a, ul#downloads li a:visited { color: white; text-decoration: none; margin: 0 auto; }
 
 ul#downloads li:hover { background-color: #333333; 
 		-moz-box-shadow: 3px 3px 4px #000;
