@@ -47,7 +47,7 @@
     <li class="<?php if ($page == 'screenshots') print 'current' ?>"><a href="screenshots.php">SCREENSHOTS</a></li>
     <li class="<?php if ($page == 'downloads') print 'current' ?>"><a href="downloads.php">DOWNLOADS</a></li>
     <li class="<?php if ($page == 'forum') print 'current' ?>"><a href="forum.php">FORUM</a></li>
-    <li class="<?php if ($page == 'contributors') print 'current' ?>"><a href="contributors.php">CONTRIBUTORS</a></li>
+    <li class="<?php if ($page == 'contribute') print 'current' ?>"><a href="contribute.php">CONTRIBUTE</a></li>
   </ul>
 </div>
 </div>

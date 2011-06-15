@@ -134,7 +134,31 @@ ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.
 }
 #footer { clear: both; background-color: #292929; padding:2ex; text-align: center; color: #737373; font-weight: bold; }
 
+ul#downloads { list-style-type: None; margin: 0; padding: 0 }
 
+ul#downloads {color: white}
+
+ul#downloads li{
+                    float: left;
+                    text-align: center; 
+                    background-color: #6e6e6e; 
+                    color: white; 
+                    border-radius: 4px; 
+                    -ms-border-radius: 4px; 
+                    -moz-border-radius: 4px; 
+                    -webkit-border-radius: 4px; 
+                    -khtml-border-radius: 4px;
+}
+
+ul#downloads li:hover { background-color: #333333; 
+		-moz-box-shadow: 3px 3px 4px #000;
+		-webkit-box-shadow: 3px 3px 4px #000;
+		box-shadow: 3px 3px 4px #000;
+		/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+		/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+} 
 
 
 
