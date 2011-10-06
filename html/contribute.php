@@ -9,6 +9,7 @@ include "header.php" ?>
 <h3>Filling Bugs and requesting new features</h3>
 
 <p>If you find bugs or you want to request a new feature in LongoMatch, you should file a new bug report using GNOME's Bugzilla. You will need to <a href="https://bugzilla.gnome.org/createaccount.cgi">create an account</a> first for filling new bugs or commenting on them.
+<div id="text-block">
 <ul>
 <li>
 File a new bug: <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=longomatch"> Bug report form</a>
@@ -18,12 +19,15 @@ Request a new feature: <a href="https://bugzilla.gnome.org/enter_bug.cgi?product
 </li>
 </ul>
 <p>
+</div>
 
 
 <h3>Translating LongoMatch into your language</h3>
 
 <p>LongoMatch has been already translated into many languages and the translations are now maintained by GNOME's translation team. But if LongoMatch hasn't been translated yet to your language or some
 translations are missing, feal free to file a new bug with the new translation or the missing translation.
+<p>
+<div id="text-block">
 <ul>
 <li>
 File a new translation bug: <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=longomatch&keywords=I18N+L10N"> Translation bug form</a>
@@ -32,11 +36,13 @@ File a new translation bug: <a href="https://bugzilla.gnome.org/enter_bug.cgi?pr
 Check the state of the translations: <a href="http://l10n.gnome.org/module/longomatch/"> Current state</a>
 </li>
 </ul>
-<p>
+</div>
 
 <h3>Contributing with code</h3>
 <p>LongoMatch is mostly written in C# using Gtk# and GStreamer and the code is in a git repository, hosted by GNOME.
 The project is structured in 3 modules:
+</p>
+<div id="text-block">
 <ul>
 <li>
 LongoMatch: Core and UI
@@ -49,8 +55,12 @@ CesarPlayer: C# wrappers, and widgets for the multimedia backend
 </li>
 </ul>
 <ul>
+</div>
 
+<p>
 At the moment you won't find any helpful documentation for contributing in the development, but these are the few steps you will need to do to fetch and compile the code from sources.
+</p>
+<div id="text-block">
 <ul>
 <li>
 Fetch the code from the git respository:
@@ -68,8 +78,8 @@ $ make install <br>
 </code>
 </ul>
 <ul>
+</div>
 <p>
-
 If you liked the software and you would like to contribute with a financial help to maintain the web server and invest in new equipment, we accept donations through paypal.</p>
 </div>
 </div>
