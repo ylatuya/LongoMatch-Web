@@ -14,7 +14,7 @@ em {  font-style:  normal; font-weight: bold; }
 code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
 #header { background-color: #333; }
 
-#logo { float: left; background: url('../img/tira_logo.png') repeat-x; width: 8.3%; height: 105px; text-align-center; border-right: 1px solid #85a753; }
+#logo { float: left; background: url('../img/tira_logo.png') repeat-x; width: 5em; height: 105px; text-align-center; border-right: 1px solid #85a753; }
 #logo img { margin: 10px auto; display: block; }
 
 #header-menu { overflow: hidden; height: 105px; }
@@ -37,7 +37,7 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 8.3%; width: 79.7%; background-color: #fefefe; height: 100%; position: relative; background: url('../img/tira_info.png') repeat-x; }
+#inner-container { margin-left: 5em; width: 79.7%; background-color: #fefefe; height: 100%; position: relative; background: url('../img/tira_info.png') repeat-x; }
 #inner-container.home { height: 300px;  }
 #inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
 #inner-container h2 { font-size: 250%; text-align: right; width: 80%; font-weight: normal; } 
@@ -75,16 +75,16 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #features #download a { text-indent: -9999px; background: url('../img/download.png') no-repeat; display: block; height: 66px; width: 216px;}
 #features #download p { text-align: center; font-size: 80%; margin-top: 1ex; color:#2f4717; font-weight: bold;}
 
-#news { clear: both; float: left; background-color: #3d5315; color: #d4d6d5; }
+#news { clear: both; float: left; background-color: #3d5315; color: #d4d6d5; width: 100%; }
 #news h2 { margin-top: .5ex; color: #91b74a; font-size: 120%; }
 #news #blog { width: 70%; clear: left;float: left; overflow: hidden;  padding-bottom: 8ex; }
-#news #blog .post { clear: left; float: left; position: relative; width: 100%;  }
-#news #blog .post .post-col { width: 8.3%; float: left; background-color: #2c3e0e; margin-bottom: -1000px; padding-bottom:1000px; padding-top: 2ex;}
+#news #blog .post { clear: left; float: left;  }
+#news #blog .post .post-col { width: 5em; float: left; background-color: #2c3e0e; margin-bottom: -1000px; padding-bottom:1000px; padding-top: 2ex;}
 #news #blog .post ul { margin: 0 auto; width: 39px; list-style: none;}
 #news #blog .post .post-col .date-img {  margin-bottom: 3ex; }
 #news #blog .post .post-col img { clear: both; margin-bottom: .5ex; display: block; }
-#news #blog .post .post-text { padding-top: 2ex;  float: left; width: 88.7%;  padding-left: 3%;}
-#news #blog .post .post-text p { margin-top:1ex; margin-bottom: 2ex; width: 90%; text-align: justify; }
+#news #blog .post .post-text { padding-top: 2ex;  float: left; padding-left: 3%; width: 80%;}
+#news #blog .post .post-text p { margin-top:1ex; margin-bottom: 2ex; }
 #news #blog .post .post-text p.date-post { color: #6d912d; margin-top: .2ex; margin-bottom: 2ex; }
 #news #blog .post .post-text p.read-more span { display: block; float: right; border-radius: 4px; -ms-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; color: #81a43c; background-color:#2b3a0f; padding: .7ex; width: 8em; text-align:center; font-weight: bold; margin-top: 1ex; cursor: pointer; }
 #news #blog .post .post-text p.read-more span:hover { background-color: #81a43c;  }
