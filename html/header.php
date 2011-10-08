@@ -7,8 +7,8 @@
     <meta name="title" content="LongoMatch - The digital coach" />
     <meta name="description" content="LongoMatch - The Libre Free digital coach. Sports video analysis and scooting software" />
     <title>LongoMatch - The digital coach</title>
+<!--    <link rel="stylesheet" type="text/css" href="css/jquery.tweet.css"/> -->
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <link rel="stylesheet" type="text/css" href="css/jquery.tweet.css"/>
     <script language="javascript" src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
     <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/prototype.js"></script>

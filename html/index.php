@@ -63,19 +63,41 @@ include "header.php"
                 <li><img src="img/mail.png" alt="share by mail"/></li>
               </ul>
              </div>
-            <div class="post-text">
+            <div class="post-text first-post last-post">
                 <h2>New release!!</h2>
                 <p class="date-post">September 20, 2009 20:40</p>
                 <p>Lorem ipsum veri iisque ocurreret vim in. Vel ei autem graecis inimicus, cum ut lucilius periculis laboramus. At sea inimicus efficiantur, vel nihil recteque ei. Vix eu modus habemus. Id sea probo feugait voluptaria, et error tempor mucius vim, at facilis pertinacia cum.</p>
                 <p>Mazim melius vis ei, sed ei elitr utamur feugait. Sed ad omnes expetendis dissentiet, mei magna mentitum tractatos ad. Qui aeque moderatius ne, amet iusto eu vel. Homero nusquam mediocritatem ei sed, qui reque possit essent id. No laoreet molestiae sit, tollit integre sapientem mel an.</p>
                 <p>Usu no salutatus incorrupte scriptorem, altera luptatum persequeris cu sit. Soluta dolorum consequat ut nec, mundi labores vis ne. Ignota everti detracto an nam, eum quis theophrastus at, te prima commune eligendi qui. Ad quis democritum vix, his eu esse omnesque quaerendum, possim invidunt qui an.</p>                              
                 <p class="read-more"><span><a href="">Read More...</a></span></p>
-                <hr/>
+		<hr/>
             </div>
           </div>
         </div>
         <div id="social">     
-          <div class="tweet"></div>
+          <div id="twitter-feed">
+	  <h2>Follow me in twitter</h2>
+	  <div id="tweets">
+	    <div class="tweet">
+	      <p>What a great website @ygneo & @xaviercolomer</p>
+	    </div>
+	    <hr/>
+	    <div class="tweet">
+	      <p>What a great website @ygneo & @xaviercolomer</p>
+	    </div>
+	    <hr/>
+	  </div>
+<!--          <div class="forum-feed">
+	    <h2>Last forum entries</h2>
+	  <div id="forum-entries">
+	    <div class="entry">
+	      <p>What a great website @ygneo & @xaviercolomer</p>
+	    </div>
+	    <hr/>
+	    <div class="entry">
+	      <p>What a great website @ygneo & @xaviercolomer</p>
+	    </div>
+	  </div>-->
         </div>
       </div>
     </div>
