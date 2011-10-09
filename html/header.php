@@ -7,26 +7,25 @@
     <meta name="title" content="LongoMatch - The digital coach" />
     <meta name="description" content="LongoMatch - The Libre Free digital coach. Sports video analysis and scooting software" />
     <title>LongoMatch - The digital coach</title>
-<!--    <link rel="stylesheet" type="text/css" href="css/jquery.tweet.css"/> -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.tweet.css"/> 
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script language="javascript" src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
     <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/prototype.js"></script>
+<!--    <script type="text/javascript" src="js/prototype.js"></script>
     <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>-->
     <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 
     <script type='text/javascript'>
-    /* $(document).ready(function(){
-    /*     $(".tweet").tweet({
-    /*         username: "longomatch",
-    /*         join_text: "auto",
-    /*         intro_text: "recent tweets",
-    /*         avatar_size: 32,
-    /*         count: 5,
-    /*         loading_text: "loading tweets..."
-    /*     });
-    /* });*/
+     $(document).ready(function(){
+         $("#tweets").tweet({
+             username: "longomatch",
+             join_text: "auto",
+             count: 3,
+             loading_text: "loading tweets...",
+             template: "{text}{time}<hr/>"
+       });
+     });
 </script>
 </head>
 <body>

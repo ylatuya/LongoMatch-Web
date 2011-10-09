@@ -78,14 +78,6 @@ include "header.php"
           <div id="twitter-feed">
 	  <h2>Follow me in twitter</h2>
 	  <div id="tweets">
-	    <div class="tweet">
-	      <p>What a great website @ygneo & @xaviercolomer</p>
-	    </div>
-	    <hr/>
-	    <div class="tweet">
-	      <p>What a great website @ygneo & @xaviercolomer</p>
-	    </div>
-	    <hr/>
 	  </div>
 <!--          <div class="forum-feed">
 	    <h2>Last forum entries</h2>
