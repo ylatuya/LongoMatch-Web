@@ -6,6 +6,8 @@ padding:0;
 vertical-align:baseline;
 }
 
+html, body { height: 100%; }
+
 body { font-family: Tahoma, Arial, Verdana; }
 
 h3 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; }
@@ -37,8 +39,8 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; width: 79.7%; background-color: #fefefe; height: 100%; position: relative; background: url('../img/tira_info.png') repeat-x; }
-#inner-container.home { height: 300px;  }
+#inner-container { margin-left: 5em; width: 79.7%; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x; }
+#inner-container.home { height: 100%;  }
 #inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
 #inner-container h2 { font-size: 250%; text-align: right; width: 80%; font-weight: normal; } 
 #inner-container h1 em, h2 em { font-weight: bold; font-style: normal; } 
@@ -50,14 +52,14 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #inner-container.no-home #text-block li { margin-bottom: 2ex;  } 
 
 #text-block { width: 90%; margin: 0 auto;  }
-#watch { float: left;  }
+#watch { float: left;  margin-top: 4ex; }
 #watch img { height: 300px; }
 
 #info { float: left;  height: 100%; width: 55%;  padding-left: 2ex;  }
 #info h1 { margin-top:.5ex; padding:0;}
-#info p { font-size: 110%; text-align: center; width: 90%; display:block; margin: 1ex auto 1.5ex auto;}
+#info p { font-size: 110%; text-align: justify; width: 95%; display:block; margin: 1ex auto 1.5ex auto;}
 #info p em { font-style: normal; font-weight: bold; }
-#info #video-and-more { margin: 0 auto; height: 100px; }
+#info #video-and-more { margin: 3.5ex auto 3.5ex auto; height: 100px; width: 350px;}
 #info #video { float: left; }
 #info ul#more { float: left; list-style: none; margin-left: .5ex;}
 #info ul#more li { padding: 1ex; text-align: center; background-color: #6e6e6e; margin-bottom: .2ex;  color: white; width: 8em; border-radius: 4px; -ms-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; }
@@ -65,7 +67,7 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #info ul#more li:hover { background-color: #333333; }
 
 
-#features { clear: both; background: url('../img/tira_feature.png') repeat-x; overflow: hidden; float: left; width: 100%; height: 100px; font-size: 80%; }
+#features { clear: both; background: url('../img/tira_feature.png') repeat-x; overflow: hidden; float: left; width: 100%; height: 161px; font-size: 80%; }
 #features ul { width: 79.7%; margin-left: 115px; list-style: none; }
 #features ul li { float: left; color: #cfeba1; width: 10em; margin-right: 4ex;  padding-top: 4ex; cursor: pointer; }
 #features ul li.current, #features ul li:hover { background: url('../img/current_feature.png') no-repeat top center; }

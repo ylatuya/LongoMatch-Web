@@ -9,9 +9,9 @@ include "header.php"
             <img src="img/watch.png" alt="Use longomatch and go back in time!"/>
           </div>
           <div id="info">
-            <h1 id="longomatch"> Use <em>LongoMatch</em><br/>&nbsp;&nbsp;&nbsp;&amp; go back <em>in time!</em></h1>
+            <h1 id="longomatch"> Use <em>LONGOMATCH</em><br/>&nbsp;&nbsp;&nbsp;&amp; go back <em>in time!</em></h1>
             <p>LongoMatch is a free video analysis software for sport analysts with unlimited possibilities: <em>Record, Tag, Review, Draw, Edit Videos and much more!</em></p>
-            <div id="video-and-more">
+          <div id="video-and-more">
               <div id="video">
                 <a href=""><img src="img/video.png" alt="Play video"/></a>
               </div>
@@ -29,10 +29,10 @@ include "header.php"
             <h3><a href="">Live Analysis</a></h3>
             <p>Record, tag and analyse games in real-time.</p>
           </li>
-          <li>
+<!--          <li>
             <h3><a href="">Instant Review</a></h3>
             <p>Review and edit tags with a single click.</p>
-          </li>
+          </li>-->
           <li>
             <h3><a href="">Timeline</a></h3>
             <p>Edit all the game tags visually from the timeline.</p>
@@ -96,3 +96,4 @@ include "header.php"
 <?php
 include "footer.php"
 ?>
+ 
