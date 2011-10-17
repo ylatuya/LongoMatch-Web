@@ -11,22 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script language="javascript" src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
     <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
-<!--    <script type="text/javascript" src="js/prototype.js"></script>
-    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-    <script type="text/javascript" src="js/lightbox.js"></script>-->
-    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
-
-    <script type='text/javascript'>
-     $(document).ready(function(){
-         $("#tweets").tweet({
-             username: "longomatch",
-             join_text: "auto",
-             count: 3,
-             loading_text: "loading tweets...",
-             template: "{text}{time}<hr/>"
-       });
-     });
-</script>
 </head>
 <body>
 <div id="header">
@@ -43,7 +27,6 @@
   <ul id="menu">
     <li class="<?php if ($page == 'home') print 'current' ?>"><a href="index.php">HOME</a></li>
     <li class="<?php if ($page == 'features') print 'current' ?>"><a href="features.php">FEATURES</a></li>
-    <li class="<?php if ($page == 'screenshots') print 'current' ?>"><a href="screenshots.php">SCREENSHOTS</a></li>
     <li class="<?php if ($page == 'downloads') print 'current' ?>"><a href="downloads.php">DOWNLOADS</a></li>
     <li class="<?php if ($page == 'forum') print 'current' ?>"><a href="forum.php">FORUM</a></li>
     <li class="<?php if ($page == 'contribute') print 'current' ?>"><a href="contribute.php">CONTRIBUTE</a></li>

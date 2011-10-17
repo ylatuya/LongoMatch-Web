@@ -2,6 +2,18 @@
 $page = 'home'; 
 include "header.php"
 ?>
+    <script type='text/javascript'>
+     $(document).ready(function(){
+         $("#tweets").tweet({
+             username: "longomatch",
+             join_text: "auto",
+             count: 3,
+             loading_text: "loading tweets...",
+             template: "{text}{time}<hr/>"
+       });
+     });
+    </script>
+
     <div id="content">
       <div id="container">
         <div id="inner-container" class="home">
@@ -29,10 +41,6 @@ include "header.php"
             <h3><a href="">Live Analysis</a></h3>
             <p>Record, tag and analyse games in real-time.</p>
           </li>
-<!--          <li>
-            <h3><a href="">Instant Review</a></h3>
-            <p>Review and edit tags with a single click.</p>
-          </li>-->
           <li>
             <h3><a href="">Timeline</a></h3>
             <p>Edit all the game tags visually from the timeline.</p>
