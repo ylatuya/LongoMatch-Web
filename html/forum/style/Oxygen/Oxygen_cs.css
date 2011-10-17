@@ -171,7 +171,7 @@ body {
 	}
 .brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #DBE0E4;
-	color: #1F537B;
+	color: #74C0FA;
 	}
 
 .brd .error-box .hn {
@@ -225,8 +225,8 @@ body {
 ----------------------------------------------------------------*/
 
 #brd-navlinks {
-	background: #113C5E;
-	border-color: #113C5E;
+	background: #566718;
+	border-color: #566718;
 	color: #ddd;
 	}
 
@@ -244,7 +244,7 @@ body {
 	}
 
 .brd .main-menu, .brd .admin-menu {
-	background: #1F537B;
+	background: #74C0FA;
 	}
 
 .brd .admin-submenu {
@@ -301,9 +301,9 @@ body {
 ----------------------------------------------------------------*/
 
 #brd-head {
-	background: #296FA5;
+	background: #91C000;
 	color: #ddd;
-	border-color: #296FA5;
+	border-color: #91C000;
 	}
 
 #brd-head a, #brd-head a:link, #brd-head a:visited {
@@ -311,9 +311,9 @@ body {
 	}
 
 .brd .main-head, .brd .main-foot {
-	background: #1F537B;
+	background: #74C0FA;
 	color: #ddd;
-	border-color: #1f537b;
+	border-color: #74C0FA;
 	}
 
 .brd #brd-announcement h1 {
@@ -387,7 +387,7 @@ body {
 	}
 
 .brd .main-content .new .icon {
-	border-color: #2B75AD #235E8C #1F537B #266799;
+	border-color: #2B75AD #235E8C #74C0FA #266799;
 	}
 
 
