@@ -3,9 +3,11 @@ $page = 'forum';
 include "header.php" ?>
 
     <div id="content">
-      <?php
-        define('FORUM_ROOT', './forum/');
-        include "forum/index.php" ?>
+        <div id="container">
+            <div id="inner-container">
+                <iframe src="forum_index.php/" width=100% height=100%>
+            </div>
+        </div>
     </div>
 
 <?php
