@@ -1,5 +1,5 @@
 <?php
-$page = 'downloads';
+$page = 'contribute';
 include "header.php" ?>
 
 <div id="content">

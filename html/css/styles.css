@@ -8,9 +8,9 @@ vertical-align:baseline;
 
 html, body { height: 100%; }
 
-body { font-family: Tahoma, Arial, Verdana; }
+body { font-family: 'Open Sans', Tahoma, Arial, Verdana; }
 
-h3 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; }
+h3 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; color: #6D912D; }
 h1 { color: color: #545454;; font-weight: bold; }
 em {  font-style:  normal; font-weight: bold; }
 code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
@@ -40,17 +40,17 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #container { background-color: #dadada; width: 100%; float: left;  }
 
 #inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x; }
-#inner-container.home { height: 100%;  }
+#inner-container.no-home { background: white;  }
 #inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
 #inner-container h2 { font-size: 250%; text-align: right; width: 80%; font-weight: normal; } 
 #inner-container h1 em, h2 em { font-weight: bold; font-style: normal; } 
 #inner-container.no-home h1 { margin-top: 1ex; padding: 0; border-bottom: 5px dotted #545454; padding-bottom: .2ex; display: block; }
 #inner-container.no-home h2 { font-size: 100%; font-weight: normal;  }
 #inner-container.no-home p:last-child { margin-bottom: 3ex;  }  
-#inner-container.no-home p { font-size: 120%; margin-bottom: 1ex;  } 
+#inner-container.no-home p { font-size: 130%; margin-bottom: 1ex;  line-height: 120%;} 
 #inner-container.no-home #text-block li { margin-bottom: 2ex;  } 
 
-#text-block { width: 90%; margin: 0 auto;  }
+#text-block { width: 90%; margin: 2ex auto;  }
 #watch { float: left;  margin-top: 4ex; }
 #watch img { height: 300px; }
 

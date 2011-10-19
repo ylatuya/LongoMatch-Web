@@ -9,6 +9,7 @@
     <title>LongoMatch - The digital coach</title>
     <link rel="stylesheet" type="text/css" href="css/jquery.tweet.css"/> 
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
     <script language="javascript" src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
     <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
 </head>
