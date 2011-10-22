@@ -28,7 +28,7 @@ include "header.php"
                 <a href=""><img src="img/video.png" alt="Play video"/></a>
               </div>
               <ul id="more">
-                <li><a href="">More features</a></li>
+                <li><a href="features.php">More features</a></li>
                 <li><a href="">More videos</a></li>
               </ul>
             </div>

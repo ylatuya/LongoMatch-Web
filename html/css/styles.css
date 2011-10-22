@@ -10,7 +10,8 @@ html, body { height: 100%; }
 
 body { font-family: 'Open Sans', Tahoma, Arial, Verdana; }
 
-h3 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; color: #6D912D; }
+h2 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; color: #6D912D; }
+h3 { clear: both; font-weight: normal; font-size: 120%; color: #6D912D; margin-top: 2ex; display: block; }
 h1 { color: color: #545454;; font-weight: bold; }
 em {  font-style:  normal; font-weight: bold; }
 code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
@@ -42,10 +43,9 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x; }
 #inner-container.no-home { background: white;  }
 #inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
-#inner-container h2 { font-size: 250%; text-align: right; width: 80%; font-weight: normal; } 
 #inner-container h1 em, h2 em { font-weight: bold; font-style: normal; } 
 #inner-container.no-home h1 { margin-top: 1ex; padding: 0; border-bottom: 5px dotted #545454; padding-bottom: .2ex; display: block; }
-#inner-container.no-home h2 { font-size: 100%; font-weight: normal;  }
+
 #inner-container.no-home p:last-child { margin-bottom: 3ex;  }  
 #inner-container.no-home p { font-size: 130%; margin-bottom: 1ex;  line-height: 120%;} 
 #inner-container.no-home #text-block li { margin-bottom: 2ex;  } 
@@ -156,7 +156,7 @@ ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.
 
 ul#downloads { list-style-type: None; margin: 0; padding: 0 }
 
-ul#downloads {color: white}
+ul#downloads {color: white; float: left; }
 
 ul#downloads > li:first-child { margin-left: 0; }
 
@@ -170,7 +170,7 @@ ul#downloads li{
                     -moz-border-radius: 4px; 
                     -webkit-border-radius: 4px; 
                     -khtml-border-radius: 4px;
-                    margin: 2ex 2ex 0 2ex;
+                    margin: 0 2ex 0 2ex;
                     padding: 1.5ex;
                     text-align: center;
                     width: 5em;
