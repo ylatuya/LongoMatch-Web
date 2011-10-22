@@ -5,8 +5,8 @@ include "header.php" ?>
 <div id="content">
   <div id="container">
     <div id="inner-container" class="no-home">
-
-<h3>Filling Bugs and requesting new features</h3>
+      <h2>Contribute to LongoMatch!</h2>
+      <h3>Filling Bugs and requesting new features</h3>
 
 <p>If you find bugs or you want to request a new feature in LongoMatch, you should file a new bug report using GNOME's Bugzilla. You will need to <a href="https://bugzilla.gnome.org/createaccount.cgi">create an account</a> first for filling new bugs or commenting on them.
 <div id="text-block">
