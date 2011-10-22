@@ -10,9 +10,8 @@ html, body { height: 100%; }
 
 body { font-family: 'Open Sans', Tahoma, Arial, Verdana; }
 
-h2 { font-weight: bold; font-size: 140%; margin-bottom: 1ex; margin-top: 2ex; color: #6D912D; }
-h3 { clear: both; font-weight: normal; font-size: 120%; color: #6D912D; margin-top: 2ex; display: block; }
-h1 { color: color: #545454;; font-weight: bold; }
+h2 { font-weight: bold; font-size: 200%; margin-bottom: 1ex; margin-top: 1ex; color: #6D912D; }
+h3 { clear: both; font-weight: normal; font-size: 150%; color: #6D912D; margin-top: 2ex; margin-bottom: 1ex; }
 em {  font-style:  normal; font-weight: bold; }
 code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
 #header { background-color: #333; width: 100%;  height: 105px; }
@@ -41,16 +40,10 @@ code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color:
 #container { background-color: #dadada; width: 100%; float: left;  }
 
 #inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x; }
-#inner-container.no-home { background: white;  }
-#inner-container h1 { font-size: 250%; font-weight: normal; padding-top: 2ex; } 
-#inner-container h1 em, h2 em { font-weight: bold; font-style: normal; } 
-#inner-container.no-home h1 { margin-top: 1ex; padding: 0; border-bottom: 5px dotted #545454; padding-bottom: .2ex; display: block; }
-
+#inner-container.no-home { background: white;  padding-left: 2ex; padding-right: 2ex; }
 #inner-container.no-home p:last-child { margin-bottom: 3ex;  }  
-#inner-container.no-home p { font-size: 130%; margin-bottom: 1ex;  line-height: 120%;} 
-#inner-container.no-home #text-block li { margin-bottom: 2ex;  } 
+#inner-container.no-home p { font-size: 120%; margin-bottom: 1ex;  line-height: 120%; color: #414141; } 
 
-#text-block { width: 90%; margin: 2ex auto;  }
 #watch { float: left;  margin-top: 4ex; }
 #watch img { height: 300px; }
 
@@ -154,9 +147,7 @@ ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.
 }
 #footer { clear: both; background-color: #292929; padding:2ex; text-align: center; color: #737373; font-weight: bold; }
 
-ul#downloads { list-style-type: None; margin: 0; padding: 0 }
-
-ul#downloads {color: white; float: left; }
+ul#downloads { list-style-type: None; margin-bottom: 2ex; padding: 0 color: white; float: left; }
 
 ul#downloads > li:first-child { margin-left: 0; }
 
@@ -189,3 +180,11 @@ ul#downloads li:hover { background-color: #333333;
 } 
 
 
+#features-list { margin-bottom: 4ex; float: left;  }
+#features-list .feature-info { width: 65%; margin-right: 2ex; }
+#features-list .feature-info.left { float: left; }
+#features-list .feature-info.right { float: right; }
+#features-list img {float: left;  margin-right: 2.5ex; width: 300px; height: 205px; cursor: pointer; }
+#features-list h3 { margin-top: 0; }
+#features-list hr { clear: both; border: 0; padding: 2ex; }
+#features-list #resizable-zoom-in-hover { position: absolute; top: 0; right: 2.5ex; width: 300px; height: 205px;  opacity: 0.5; background: url('../img/zoom-in.png') center no-repeat black; }

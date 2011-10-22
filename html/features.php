@@ -5,12 +5,32 @@
 <div id="content">
   <div id="container">
     <div id="inner-container" class="no-home">
-      <div id="text-block">
-      <p><em>LongoMatch</em> is a sports <em>video analysis tool</em> for coaches and <em>sports analysts</em>, to assist them in making games video analysis. </p>
-    </div>
-      <div id="text-block">
-      <p>
-        <ul id="list">
+      <h2>LongoMatch Features</h2>
+      <div id="features-list">
+        <div class="feature-info left">
+          <h3>Intuitive interface</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim. 
+          </p>
+        </div>
+        <img src="http://www.longomatch.ylatuya.es/screenshots/projectsmanager-th.png" alt="" title="Intuitve interface" class="right-image resizable"/>
+        <hr/>
+        <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
+        <div class="feature-info right">
+          <h3>Team templates</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim.</p>
+        </div>
+        <hr/>
+        <div class="feature-info left">
+          <h3>Frame synchronisation</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim. 
+          </p>
+        </div>
+        <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
+        <hr/>
+
+      </div>
+<!--      <p><em>LongoMatch</em> is a sports <em>video analysis tool</em> for coaches and <em>sports analysts</em>, to assist them in making games video analysis.</p>-->
+ <!--        <ul id="list">
           <li>Friendly graphical user interface</li>
           <li>Design focused on usability and efficiency</li>
           <li>Unlimited number of tagging categories to group plays</li>
@@ -28,9 +48,7 @@
           <li>Export projects to CSV files for statistics analysis</li>
           <li>Support for the most common video formats</li>
           <li>Multiplatform (Linux, FreeBSD, Windows,...)</li>
-        </ul>
-      </p>
-      </div>
+        </ul>-->
     </div>
   </div>
 </div>
