@@ -40,11 +40,14 @@ a:visited {  color: #85a753;  }
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left;  }
+#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; }
 #inner-container.home { background: url('../img/tira_info.png') repeat-x; }
 #inner-container { background: white;  padding-left: 2ex; padding-right: 2ex; }
-#inner-container p { font-size: 120%; margin-bottom: 1ex;  line-height: 120%; color: #414141; } 
+#inner-container p { margin-bottom: 1ex; font-size: 120%; line-height: 150%; } 
 #inner-container p:last-child { margin-bottom: 3ex;  }  
+#inner-container ul, ol { font-size: 120%; line-height: 150%; }
+#inner-container ul li { list-style: none;  background: url('../img/longobullet.png') no-repeat; padding-left: 45px; height: 40px; padding-top: .6ex; }
+#inner-container ol li { background: none; list-style: decimal; list-style-position: inside; padding: 0; }
 
 #watch { float: left;  margin-top: 4ex; }
 #watch img { height: 300px; }
@@ -56,7 +59,7 @@ a:visited {  color: #85a753;  }
 #info #video-and-more { margin: 3.5ex auto 3.5ex auto; height: 100px; width: 350px;}
 #info #video { float: left; }
 #info ul#more { float: left; list-style: none; margin-left: .5ex;}
-#info ul#more li { padding: 1ex; text-align: center; background-color: #6e6e6e; margin-bottom: .2ex;  color: white; width: 8em; border-radius: 4px; -ms-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; }
+#info ul#more li { padding: 1ex; text-align: center; background-image: none; background-color: #6e6e6e; margin-bottom: .2ex;  color: white; width: 8em; border-radius: 4px; -ms-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; font-size: 90%; height: 100%; }
 #info ul#more li a { color: white; text-decoration: none; }
 #info ul#more li:hover { background-color: #333333; }
 
@@ -149,11 +152,14 @@ ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.
 }
 #footer { clear: both; background-color: #292929; padding:2ex; text-align: center; color: #737373; font-weight: bold; }
 
-ul#downloads { list-style-type: None; margin-bottom: 2ex; padding: 0 color: white; float: left; }
+ul#downloads { list-style-type: None; margin-bottom: 2ex; padding: 0; color: white; float: left; }
 
 ul#downloads > li:first-child { margin-left: 0; }
 
 ul#downloads li{
+                    height: 100%;
+                    font-size: 90%; 
+                    background-image: none;
                     float: left;
                     text-align: center; 
                     background-color: #6e6e6e; 

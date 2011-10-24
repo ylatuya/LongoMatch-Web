@@ -6,7 +6,7 @@
   <div id="container">
     <div id="inner-container" class="no-home">
       <div id="text-content">
-      <h2>Download <em>LongoMatch</em> for your operating system</h2>
+      <h2>Download <em>LongoMatch</em></h2>
       <ul id="downloads">
         <li> 
           <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.16.8-1.exe">
