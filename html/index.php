@@ -21,7 +21,7 @@ include "header.php"
             <img src="img/watch.png" alt="Use longomatch and go back in time!"/>
           </div>
           <div id="info">
-            <h1 id="longomatch"> Use <em>LONGOMATCH</em><br/>&nbsp;&nbsp;&nbsp;&amp; go back <em>in time!</em></h1>
+            <h1 id="longomatch"> Use <em>LongoMatch</em><br/>&nbsp;&nbsp;&nbsp;&amp; go back <em>in time!</em></h1>
             <p>LongoMatch is a free video analysis software for sport analysts with unlimited possibilities: <em>Record, Tag, Review, Draw, Edit Videos and much more!</em></p>
           <div id="video-and-more">
               <div id="video">

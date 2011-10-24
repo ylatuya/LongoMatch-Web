@@ -37,14 +37,13 @@ a:visited {  color: #85a753;  }
 #header-menu ul#menu li a { color: #545454; }
 #header-menu ul#menu li.current a { color: #929292; }
 
-#content { clear: both; }
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x; }
-#inner-container.no-home { background: white;  padding-left: 2ex; padding-right: 2ex; }
-#inner-container.no-home p:last-child { margin-bottom: 3ex;  }  
-#inner-container.no-home p { font-size: 120%; margin-bottom: 1ex;  line-height: 120%; color: #414141; } 
+#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; background: url('../img/tira_info.png') repeat-x;  }
+#inner-container { background: white;  padding-left: 2ex; padding-right: 2ex; }
+#inner-container p { font-size: 120%; margin-bottom: 1ex;  line-height: 120%; color: #414141; } 
+#inner-container p:last-child { margin-bottom: 3ex;  }  
 
 #watch { float: left;  margin-top: 4ex; }
 #watch img { height: 300px; }
@@ -181,12 +180,10 @@ ul#downloads li:hover { background-color: #333333;
 		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
 
-
-#features-list { margin-bottom: 4ex; float: left;  }
-#features-list .feature-info { width: 65%; margin-right: 2ex; }
-#features-list .feature-info.left { float: left; }
-#features-list .feature-info.right { float: right; }
-#features-list img {float: left;  margin-right: 2.5ex; width: 300px; height: 205px; cursor: pointer; }
+#features-list .feature-info { width: 60%; float: left; }
+#features-list .feature-info.left { margin-right: 2ex; }
+#features-list .feature-info.right { margin-left: 2.5ex; }
+#features-list img {float: left;  width: 300px; height: 205px; cursor: pointer; }
 #features-list h3 { margin-top: 0; }
 #features-list hr { clear: both; border: 0; padding: 2ex; }
 #features-list #resizable-zoom-in-hover { position: absolute; top: 0; right: 2.5ex; width: 300px; height: 205px;  opacity: 0.5; background: url('../img/zoom-in.png') center no-repeat black; }

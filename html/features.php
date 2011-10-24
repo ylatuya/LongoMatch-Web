@@ -2,14 +2,13 @@
   $page = 'features'; 
   include "header.php" ?>
 
-<div id="content">
   <div id="container">
-    <div id="inner-container" class="no-home">
-      <h2>LongoMatch Features</h2>
+    <div id="inner-container">
       <div id="features-list">
+	<h2>LongoMatch features</h2>
         <div class="feature-info left">
           <h3>Intuitive interface</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim. 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. 
           </p>
         </div>
         <img src="http://www.longomatch.ylatuya.es/screenshots/projectsmanager-th.png" alt="" title="Intuitve interface" class="right-image resizable"/>
@@ -17,12 +16,12 @@
         <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
         <div class="feature-info right">
           <h3>Team templates</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio.</p>
         </div>
         <hr/>
         <div class="feature-info left">
           <h3>Frame synchronisation</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. Etiam justo tellus, egestas in rutrum a, pulvinar vulputate erat. Sed nec lectus sed ante vestibulum lacinia id vel enim. 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. 
           </p>
         </div>
         <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
@@ -51,6 +50,5 @@
         </ul>-->
     </div>
   </div>
-</div>
 <?php
   include "footer.php" ?>
