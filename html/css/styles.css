@@ -40,22 +40,22 @@ a:visited {  color: #85a753;  }
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; }
-#inner-container.home { background: url('../img/tira_info.png') repeat-x; }
-#inner-container { background: white;  padding-left: 2ex; padding-right: 2ex; }
+#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 2ex; padding-right: 2ex; }
+#inner-container.home { padding-left: 1ex; background: url('../img/tira_info.png') repeat-x; position: relative; }
 #inner-container p { margin-bottom: 1ex; font-size: 120%; line-height: 150%; } 
 #inner-container p:last-child { margin-bottom: 3ex;  }  
 #inner-container ul, ol { font-size: 120%; line-height: 150%; }
 #inner-container ul li { list-style: none;  background: url('../img/longobullet.png') no-repeat; padding-left: 45px; height: 40px; padding-top: .6ex; }
 #inner-container ol li { background: none; list-style: decimal; list-style-position: inside; padding: 0; }
 
-#watch { float: left;  margin-top: 4ex; }
-#watch img { height: 300px; }
+#watch { margin-top: 4ex; position: absolute; bottom: 0; }
 
-#info { float: left;  height: 100%; width: 55%;  padding-left: 2ex;  }
-#info h1 { margin-top:.5ex; padding:0;}
+#info { float: right;  width: 55%;  margin-left: 2ex;  margin-right: 2ex;  }
+#info h1 { margin-top:.5ex; padding:0; font-weight: normal; font-size: 350%; line-height: 100%; }
 #info p { font-size: 110%; text-align: justify; width: 95%; display:block; margin: 1ex auto 1.5ex auto;}
 #info p em { font-style: normal; font-weight: bold; }
+#info span#header-first-line { display: block; text-align: left; }
+#info span#header-second-line { display: block; text-align: right; }
 #info #video-and-more { margin: 3.5ex auto 3.5ex auto; height: 100px; width: 350px;}
 #info #video { float: left; }
 #info ul#more { float: left; list-style: none; margin-left: .5ex;}
