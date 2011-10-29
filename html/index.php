@@ -84,7 +84,7 @@ include "header.php"
         </div>
         <div id="social">     
           <div id="twitter-feed">
-	  <h2>Follow me in twitter</h2>
+	  <h2><a href="http://twitter.com/#!/LongoMatch">Follow me in twitter</a></h2>
 	  <div id="tweets">
 	  </div>
 <!--          <div class="forum-feed">
