@@ -74,11 +74,20 @@ include "header.php"
             <div class="post-text first-post last-post">
                 <h2>New release!!</h2>
                 <p class="date-post">September 20, 2009 20:40</p>
-                <p>Lorem ipsum veri iisque ocurreret vim in. Vel ei autem graecis inimicus, cum ut lucilius periculis laboramus. At sea inimicus efficiantur, vel nihil recteque ei. Vix eu modus habemus. Id sea probo feugait voluptaria, et error tempor mucius vim, at facilis pertinacia cum.</p>
-                <p>Mazim melius vis ei, sed ei elitr utamur feugait. Sed ad omnes expetendis dissentiet, mei magna mentitum tractatos ad. Qui aeque moderatius ne, amet iusto eu vel. Homero nusquam mediocritatem ei sed, qui reque possit essent id. No laoreet molestiae sit, tollit integre sapientem mel an.</p>
-                <p>Usu no salutatus incorrupte scriptorem, altera luptatum persequeris cu sit. Soluta dolorum consequat ut nec, mundi labores vis ne. Ignota everti detracto an nam, eum quis theophrastus at, te prima commune eligendi qui. Ad quis democritum vix, his eu esse omnesque quaerendum, possim invidunt qui an.</p>                              
-                <p class="read-more"><span><a href="">Read More...</a></span></p>
-		<hr/>
+                <p>I'm happy to announce the release of LongoMatch 0.16.9! <br>
+                   This release includes a new video converter for video camera's files which <br>
+                   converts problematic files into a format that is more suitable for LongoMatch.<br>
+                   I have also included debug console, to help solve problems in windows and <br>
+                   I have fixed a bug in the multimedia backend that was preventing running <br>
+                   in systems without DirectX hardware acceleration support. <br>
+                   The features of this release are:
+                   <ul id="list">
+                     <li>Added video converter for MPEG-TS files</li>
+                     <li>Added debug console for Windows</li>
+                     <li>Fixed support for systems wihtout DirectX hardware acceleration</li>
+                   </ul>
+                 </p>
+            <hr/>
             </div>
           </div>
         </div>
