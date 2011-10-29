@@ -32,9 +32,15 @@
               </li>
             </a>
           <li> 
-            <a href="#debian">
+            <a href="#fedora">
               <img src="img/fedora.png"/> 
               <em>Fedora</em> 
+            </a>
+          </li>
+          <li> 
+            <a href="#developement">
+              <img src="img/development.png"/> 
+              <em>Development</em> 
             </a>
           </li>
         </ul>
@@ -52,6 +58,18 @@
             LongoMatch has been packaged for <em>fedora</em> by Thomas Vander Stichele. You
             can find instructions on how to set up the RPM's repository <a
             href="http://thomas.apestaart.org/pkg/"> here </a>
+          </p>
+          <h3>Development</h3>
+          <p>
+            The 0.17.x series is a development branch to build the next stable
+            release of LongoMatch. You can download it for testing it and
+            help finding bugs, but you must remember that this version is not
+            compatible with the 0.16.x stable version and you won't be able to
+            share projects between them. Both versions can be installed at the
+            same time, so installing the development one will not erase or
+            overwritte any data from installed one.
+            The windows binaries can be found <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/"> here </a>
+            And there is an Ubuntu <a href="https://launchpad.net/~ylatuya/+archive/longomatch-dev"> ppa</a> too
           </p>
         </div>
       </div>
