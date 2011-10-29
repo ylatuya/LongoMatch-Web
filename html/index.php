@@ -55,7 +55,7 @@ include "header.php"
           </li>
         </ul>
         <div id="download">
-          <a href="" title="download">DOWNLOAD</a>
+          <a href="downloads.php" title="download">DOWNLOAD</a>
           <p>LongoMatch v 0.16</p>
         </div>
       </div>
