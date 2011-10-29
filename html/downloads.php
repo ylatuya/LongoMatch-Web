@@ -44,6 +44,13 @@
             </a>
           </li>
         </ul>
+         <h3>Windows</h3>
+          <p>
+          LongoMatch is available for Windows XP/Vista/7 and can be installed
+          double-clicking in the downloaded installer filer.</p>
+          <p>For the best user experience you must have installed a version of
+          DirectX 9.0 (or a later version) and have the hardware acceleration
+          enabled</p>
          <h3>Ubuntu/Debian ppa</h3>
           <p>
           LongoMatch is part of Ubuntu since Karmic Koala and can be installed with the packages manager.</p>
