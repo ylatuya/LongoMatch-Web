@@ -13,7 +13,7 @@ body { font-family: 'Open Sans', Tahoma, Arial, Verdana; }
 h2 { font-weight: bold; font-size: 200%; margin-bottom: 1ex; margin-top: 1ex; color: #6D912D; }
 h3 { clear: both; font-weight: normal; font-size: 150%; color: #6D912D; margin-top: 2ex; margin-bottom: 1ex; }
 em {  font-style:  normal; font-weight: bold; }
-code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid white; }
+code { display: block; padding: 2ex; margin-top: 2ex; margin-bottom: 2ex; color: white; background: #292929; border: .5px solid #6D912D; }
 a {  color: #6D912D;  }
 a:visited {  color: #85a753;  }
 
