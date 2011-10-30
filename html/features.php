@@ -7,47 +7,66 @@
       <div id="features-list">
 	<h2>LongoMatch features</h2>
         <div class="feature-info left">
-          <h3>Intuitive interface</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. 
+          <h3>Performance analysis made easy</h3>
+          <p> LongoMatch has been designed to be very easy to use, exposing
+          the basic functionalities of video analysis in an intuitive
+          interface. Tagging, playback and edition of stored events can be
+          easily done from the main window, while more specific features can be
+          accessed through menus when needed.
           </p>
         </div>
         <img src="http://www.longomatch.ylatuya.es/screenshots/projectsmanager-th.png" alt="" title="Intuitve interface" class="right-image resizable"/>
         <hr/>
         <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
         <div class="feature-info right">
-          <h3>Team templates</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio.</p>
+          <h3>Flexible and customizable for all sports</h3>
+        <p>LongoMatch can be used for any kind of sports, allowing to create
+        custom templates with an unlimited number of tagging categories. It also
+        supports defining custom subcategories and creating templates for your teams
+        with detailed information of each player which is the perfect
+        combination for a fine-grained performance analysis</p>
         </div>
         <hr/>
         <div class="feature-info left">
-          <h3>Frame synchronisation</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a sapien magna. Praesent a erat nunc. Donec dolor metus, auctor quis tincidunt vel, facilisis in purus. Praesent imperdiet bibendum justo nec facilisis. Praesent vitae dolor purus, quis sodales odio. 
+          <h3>Post-match and real time and analysis</h3>
+          <p> LongoMatch can be used for post-match analysis supporting the most
+          common video formats. But it can also be used for live analysis,
+          capturing from firewire or even without a capture device, beeing able
+          to import the video file after the analysis. This feature allows
+          decoupling the capture process from the analysis, but having
+          it ready as soon as the recording is done.
           </p>
         </div>
         <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
         <hr/>
-
-      </div>
-<!--      <p><em>LongoMatch</em> is a sports <em>video analysis tool</em> for coaches and <em>sports analysts</em>, to assist them in making games video analysis.</p>-->
- <!--        <ul id="list">
-          <li>Friendly graphical user interface</li>
-          <li>Design focused on usability and efficiency</li>
-          <li>Unlimited number of tagging categories to group plays</li>
-          <li>Capture from DV camera </li>
-          <li>Live analysis from a DV camera or a fake source</li>
-          <li>Tags plays by categories, sub-categories or players</li>
-          <li>Projects based on templates, customizable for different kind of analysis and sport</li>
-          <li>Specialised video player with frame stepping support and adjustable play rate</li>
-          <li>One-click review</li>
-          <li>Timeline to change visually the lead and lag time of each play with a frame precision</li>
-          <li>Drawing tool</li>
-          <li>Playlists support</li>
-          <li>Video editor to export playlists to new videos in different formats</li>
-          <li>Export plays to png images with a variable frame rate</li>
-          <li>Export projects to CSV files for statistics analysis</li>
-          <li>Support for the most common video formats</li>
-          <li>Multiplatform (Linux, FreeBSD, Windows,...)</li>
-        </ul>-->
+        <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
+        <div class="feature-info right">
+          <h3>Export your analysis in several formats</h3>
+          <p> The results of the analysis can be presented in several formats,
+          exporting the key plays to a new video file or generating statistics
+          reports. With LongoMatch you can easily create video highlights in a
+          few steps, diretly from the analysis window or using playlists.
+          Rendering jobs can be queued, making it easier to create videos at the
+          same no time.
+          </p>
+        </div>
+        <hr/>
+        <div class="feature-info left">
+          <h3>Tools specially designed for video analysis</h3>
+          <p>
+          </p>
+        </div>
+        <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
+        <hr/>
+        <img src="img/opensource.png" alt="" title="" class="left-image resizable"/>
+        <div class="feature-info right">
+          <h3>Free and open source</h3>
+          <p> LongoMatch is licensed under the General Public License (GPLv2),
+          and therefore it's free to use and redistribute. Under the woods,
+          LongoMatch is powered by excellent open source projects, such as
+          GStreamer, Gtk and Mono.
+          </p>
+        </div>
     </div>
   </div>
 <?php
