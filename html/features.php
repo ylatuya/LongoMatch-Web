@@ -60,7 +60,9 @@
         <hr/>
         <div class="feature-info left">
           <h3>Tools specially designed for video analysis</h3>
-          <p>
+          <p> The video player is fully controlable with the keyboard,
+          supporting frame-stepping and slow motion. LongoMatch has also a tool
+          for exporting sequential snapshots and a powerful drawing tool.
           </p>
         </div>
         <img
