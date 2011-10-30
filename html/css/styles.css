@@ -42,6 +42,7 @@ a:visited {  color: #85a753;  }
 
 #inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 2ex; padding-right: 2ex; }
 #inner-container.home { padding-left: 1ex; background: url('../img/tira_info.png') repeat-x; position: relative; }
+#inner-container.forum {float:none; width=100%;}
 #inner-container p { margin-bottom: 1ex; font-size: 120%; line-height: 150%; } 
 #inner-container p:last-child { margin-bottom: 3ex;  }  
 #inner-container ul, ol { font-size: 120%; line-height: 150%; }
