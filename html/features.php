@@ -15,9 +15,12 @@
           accessed through menus when needed.
           </p>
         </div>
-        <img src="http://www.longomatch.ylatuya.es/screenshots/projectsmanager-th.png" alt="" title="Intuitve interface" class="right-image resizable"/>
+        <img
+        src="https://lh6.googleusercontent.com/-_np92MKbMzo/Tq3CYusq5vI/AAAAAAAAAi0/JVim34W9_fA/s800/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_002.png" alt="" title="Intuitve interface" class="right-image resizable"/>
         <hr/>
-        <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
+        <img
+        src="https://lh4.googleusercontent.com/-OIvtyIpgHR8/Tq3CT55z1BI/AAAAAAAAAiU/r2sHLluQde8/s912/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_005.png"
+        alt="Flexible and customizable for all kind of sports" title="" class="left-image resizable"/>
         <div class="feature-info right">
           <h3>Flexible and customizable for all sports</h3>
         <p>LongoMatch can be used for any kind of sports, allowing to create
@@ -39,7 +42,9 @@
         </div>
         <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
         <hr/>
-        <img src="http://www.longomatch.ylatuya.es/screenshots/teamstemplate.png" alt="" title="" class="left-image resizable"/>
+        <img
+        src="https://lh3.googleusercontent.com/-sX2iJyZPkeQ/Tq3CVlxT7xI/AAAAAAAAAic/cl0ftccGI4E/s912/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_006.png"
+        alt="Export your analysis in several formats" title="" class="left-image resizable"/>
         <div class="feature-info right">
           <h3>Export your analysis in several formats</h3>
           <p> The results of the analysis can be presented in several formats,
@@ -56,7 +61,9 @@
           <p>
           </p>
         </div>
-        <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
+        <img
+        src="https://lh4.googleusercontent.com/-l5JxtUvvKYg/Tq3CVnO4WGI/AAAAAAAAAig/07-sTW999xM/s720/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_007.png"
+        alt="" title="Tools specially designed for video analysis" class="right-image resizable" />
         <hr/>
         <img src="img/opensource.png" alt="" title="" class="left-image resizable"/>
         <div class="feature-info right">
