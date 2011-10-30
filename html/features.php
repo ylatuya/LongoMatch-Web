@@ -31,7 +31,7 @@
         </div>
         <hr/>
         <div class="feature-info left">
-          <h3>Post-match and real time and analysis</h3>
+          <h3>Post-match and real time analysis</h3>
           <p> LongoMatch can be used for post-match analysis supporting the most
           common video formats. But it can also be used for live analysis,
           capturing from firewire or even without a capture device, beeing able
