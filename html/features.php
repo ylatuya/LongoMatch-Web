@@ -40,7 +40,9 @@
           it ready as soon as the recording is done.
           </p>
         </div>
-        <img src="http://www.longomatch.ylatuya.es/screenshots/analisis-th.png" alt="" title="Intuitve interface" class="right-image resizable" />
+        <img
+        src="https://lh6.googleusercontent.com/-2UC-uRcew84/Tq3LEzppAbI/AAAAAAAAAjM/XUNXtVpNdo0/s800/LongoMatch_008.png"
+        alt="" title="Live analysis" class="right-image resizable" />
         <hr/>
         <img
         src="https://lh3.googleusercontent.com/-sX2iJyZPkeQ/Tq3CVlxT7xI/AAAAAAAAAic/cl0ftccGI4E/s912/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_006.png"
