@@ -50,6 +50,7 @@ $(document).ready(function() {
                             $(this).resize("right", "zoomIn");
                         }
                         else if ($(this).hasClass("left-image")) {
+                            console.log($(this).clone());
                             $(this).resize("left", "zoomIn");
                         }
                 }
