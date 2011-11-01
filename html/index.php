@@ -13,7 +13,6 @@ include "header.php"
        });
      });
     </script>
-
     <div id="content">
       <div id="container">
         <div id="inner-container" class="home">
@@ -87,13 +86,13 @@ include "header.php"
                      <li>Fixed support for systems wihtout DirectX hardware acceleration</li>
                    </ul>
                  </p>
-            <hr/>
+                <hr/>
             </div>
           </div>
         </div>
         <div id="social">     
           <div id="twitter-feed">
-	  <h2><a href="http://twitter.com/#!/LongoMatch">Follow me in twitter</a></h2>
+	  <h2>Follow me in <a href="http://twitter.com/#!/LongoMatch">twitter</a></h2>
 	  <div id="tweets">
 	  </div>
 <!--          <div class="forum-feed">
