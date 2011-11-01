@@ -38,9 +38,9 @@
             </a>
           </li>
           <li> 
-            <a href="#developement">
+            <a href="#development">
               <img src="img/development.png"/> 
-              <em>Development</em> 
+              <em>Devel.</em> 
             </a>
           </li>
         </ul>
@@ -66,6 +66,7 @@
           can find instructions on how to set up the RPM's repository 
           <a href="http://thomas.apestaart.org/pkg/"> here </a>
         </p>
+	<a id="development"></a>
         <h3>Development</h3>
         <p>
           The 0.17.x series is a development branch to build the next stable
