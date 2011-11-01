@@ -22,7 +22,7 @@ ul {  list-style-position: inside; }
 #logo { float: left; background: url('../img/tira_logo.png') repeat-x; width: 5em; height: 105px; text-align-center; border-right: 1px solid #85a753; }
 #logo img { margin: 10px auto; display: block; }
 
-#header-menu { overflow: hidden; height: 100%; margin-right: 5em; }
+#header-menu { overflow: hidden; height: 100%; width: 87%;}
 #header-menu h1 { display: block; float: left; text-indent: -1000px; background: url('../img/title.png') no-repeat; width: 193px; height:65px; margin-top: 1ex; margin-left: 1ex; }
 #header-menu ul { list-style: none;  }
 #header-menu ul li { float: left; }
@@ -30,7 +30,7 @@ ul {  list-style-position: inside; }
 #header-menu ul#submenu li { margin-left: 4ex; }
 #header-menu ul#submenu li a { color: #757575; text-decoration: none; }
 #header-menu ul#submenu li a:hover { text-decoration: underline; }
-#header-menu #menu-container { height: 100%; position: relative; width: 1096px; }
+#header-menu #menu-container { height: 100%; position: relative;  }
 #header-menu ul#menu { font-size: 80%;  position: absolute; bottom: 0; right: 0; }
 #header-menu ul#menu li { background-color: #a9a9a9; margin-left: .5ex; width: 8em; text-align: center; height: 3ex; padding-top: 1ex; border-radius: 4px 4px 0px 0px; -ms-border-radius: 4px 4px 0px 0px; -moz-border-radius: 4px 4px 0px 0px; -webkit-border-radius: 4px 4px 0px 0px; -khtml-border-radius: 4px 4px 0px 0px; font-weight: bold; }
 #header-menu ul#menu li.current, #header-menu ul#menu li:hover { background-color: #fdfdfd; color: #929292;}
@@ -41,8 +41,8 @@ ul {  list-style-position: inside; }
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; margin-right: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 18px; padding-right: 18px; width: 1060px; }
-#inner-container.home { padding-left: 9px; padding-right: 9px;  background: url('../img/tira_info.png') repeat-x; position: relative; width: 1078px; }
+#inner-container { margin-left: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 2%; padding-right: 2%; width: 83%; }
+#inner-container.home { padding-left: 1%; padding-right: 1%;  background: url('../img/tira_info.png') repeat-x; position: relative; width: 85%; }
 #inner-container.forum {float:none; width=100%;}
 #inner-container p { margin-bottom: 1ex; font-size: 120%; line-height: 150%; } 
 #inner-container p:last-child { margin-bottom: 3ex;  }  
@@ -52,8 +52,8 @@ ul {  list-style-position: inside; }
 
 #watch { margin-top: 4ex; position: absolute; bottom: 0; }
 
-#info { position: relative; left: 390px; width: 53%;  }
-#info h1 { margin-top:.5ex; padding:0; font-weight: normal; font-size: 320%; line-height: 100%; }
+#info { float: right;  width: 55%;  margin-left: 2ex;  margin-right: 2ex;  }
+#info h1 { margin-top:.5ex; padding:0; font-weight: normal; font-size: 350%; line-height: 100%; }
 #info p { font-size: 110%; text-align: justify; width: 95%; display:block; margin: 1ex auto 1.5ex auto;}
 #info p em { font-style: normal; font-weight: bold; }
 #info span#header-first-line { display: block; text-align: left; }
