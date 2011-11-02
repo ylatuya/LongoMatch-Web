@@ -41,7 +41,7 @@ ul {  list-style-position: inside; }
 
 #container { background-color: #dadada; width: 100%; float: left;  }
 
-#inner-container { margin-left: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 2%; padding-right: 2%; width: 83%; }
+#inner-container { margin-left: 5em; background-color: #fefefe; height: 100%; float: left; color: #414141; background: white;  padding-left: 2%; padding-right: 2%; padding-bottom: 4%; width: 83%; }
 #inner-container.home { padding-left: 1%; padding-right: 1%;  background: url('../img/tira_info.png') repeat-x; position: relative; width: 85%; }
 #inner-container.forum {float:none; width=100%;}
 #inner-container p { margin-bottom: 1ex; font-size: 120%; line-height: 150%; } 
@@ -190,10 +190,15 @@ ul#downloads li:hover { background-color: #333333;
 		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
 
+#features-list { width: 95%; margin: 0 auto;  }
 #features-list .feature-info { width: 60%; float: left; }
-#features-list .feature-info.left { margin-right: 2ex; }
-#features-list .feature-info.right { margin-left: 2.5ex; }
-#features-list img {float: left;  width: 300px; height: 205px; cursor: pointer; }
+#features-list .feature-info.left { float: left; margin-right: 2ex; }
+#features-list .feature-info.right {float: right;   margin-left: 2.5ex; }
+#features-list img { width: 300px; height: 205px;  }
 #features-list h3 { margin-top: 0; }
 #features-list hr { clear: both; border: 0; padding: 2ex; }
-#features-list #resizable-zoom-in-hover { position: absolute; top: 0; right: 2.5ex; width: 300px; height: 205px;  opacity: 0.5; background: url('../img/zoom-in.png') center no-repeat black; }
+#features-list #resizable-hover { cursor: pointer; position: absolute; top: 0; opacity: 0.4; background: url('../img/zoom-in.png') center no-repeat black; width: 300px; height: 205px; }
+
+#features-list .feature-image { position: relative; width: 300px; height: 205px;}
+#features-list .feature-image.left { float: left;  }
+#features-list .feature-image.right { float: right;  }

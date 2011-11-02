@@ -15,12 +15,16 @@
           accessed through menus when needed.
           </p>
         </div>
-        <img
+        <div class="feature-image right resizable">
+          <img
         src="https://lh6.googleusercontent.com/-_np92MKbMzo/Tq3CYusq5vI/AAAAAAAAAi0/JVim34W9_fA/s800/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_002.png" alt="" title="Intuitve interface" class="right-image resizable"/>
+        </div>
         <hr/>
+        <div class="feature-image left resizable">
         <img
         src="https://lh4.googleusercontent.com/-OIvtyIpgHR8/Tq3CT55z1BI/AAAAAAAAAiU/r2sHLluQde8/s912/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_005.png"
         alt="Flexible and customizable for all kind of sports" title="" class="left-image resizable"/>
+        </div>
         <div class="feature-info right">
           <h3>Flexible and customizable for all sports</h3>
         <p>LongoMatch can be used for any kind of sports, allowing to create
@@ -40,14 +44,18 @@
           it ready as soon as the recording is done.
           </p>
         </div>
+        <div class="feature-image right resizable">
         <img
         src="https://lh6.googleusercontent.com/-2UC-uRcew84/Tq3LEzppAbI/AAAAAAAAAjM/XUNXtVpNdo0/s800/LongoMatch_008.png"
         alt="" title="Live analysis" class="right-image resizable" />
+        </div>
         <hr/>
+        <div class="feature-image left resizable">
         <img
         src="https://lh3.googleusercontent.com/-sX2iJyZPkeQ/Tq3CVlxT7xI/AAAAAAAAAic/cl0ftccGI4E/s912/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_006.png"
         alt="Export your analysis in several formats" title="" class="left-image resizable"/>
-        <div class="feature-info right">
+        </div>
+        <div class="feature-info right resizable">
           <h3>Export your analysis in several formats</h3>
           <p> The results of the analysis can be presented in several formats,
           exporting the key plays to a new video file or generating statistics
@@ -58,18 +66,22 @@
           </p>
         </div>
         <hr/>
-        <div class="feature-info left">
+        <div class="feature-info left resizable">
           <h3>Tools specially designed for video analysis</h3>
           <p> The video player is fully controlable with the keyboard,
           supporting frame-stepping and slow motion. LongoMatch has also a tool
           for exporting sequential snapshots and a powerful drawing tool.
           </p>
         </div>
+        <div class="feature-image right resizable">
         <img
         src="https://lh4.googleusercontent.com/-l5JxtUvvKYg/Tq3CVnO4WGI/AAAAAAAAAig/07-sTW999xM/s720/Spain%252520vs%252520Holland%252520World%252520Cup%252520-%252520LongoMatch_007.png"
         alt="" title="Tools specially designed for video analysis" class="right-image resizable" />
+        </div>
         <hr/>
+        <div class="feature-image left">
         <img src="img/opensource.png" alt="" title="" class="left-image resizable"/>
+        </div>
         <div class="feature-info right">
           <h3>Free and open source</h3>
           <p> LongoMatch is licensed under the General Public License (GPLv2),

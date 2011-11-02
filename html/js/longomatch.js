@@ -1,80 +1,73 @@
 $(document).ready(function() {
+        resizable_hover = $('<div id="resizable-hover">');
 
         $.fn.extend({
-                fixPosition: function() {
-                        var pos = $(this).offset();
-                        var top = Math.round(pos.top);
-                        var left = Math.round(pos.left);
-                        $(this).css("position", "absolute");
-                        $(this).css("top", top);
-                        $(this).css("left", left);
-                },
+                zooming: false,
                 resize: function(position, action) {
-                    if (position == "right") {
-                        if (action == "zoomIn") {
-                            $(this).animate({
-                                    width: "507px",
-                                    height: "374px",
-                                    left: "-=200px"
-                                    }, "fast");
-                        }
-                        else if (action == "zoomOut") {
-                            $(this).animate({
+                    if (position == "right" && action == "zoomIn") {
+                        left = "-200px";
+                    }
+                    else {
+                        left = "";
+                    }
+                    if (action == "zoomIn") {
+                        $(this).css("position", "absolute");
+                        $(this).animate({             
+                                        width: "507px",
+                                        height: "374px",
+                                        left: left, 
+                                    }, "fast", function () { resizable_hover.css("z-index", "-1") });
+                    }
+                    else if (action == "zoomOut") {
+                        $(this).css("position", "relative");
+                        img.delay(1000).animate({
                                     width: "300px",
                                     height: "205px",
-                                    left: "+=200px"
-                            }, "fast");
-                        }
-                    }
-                    else if (position == "left") {
-                        if (action == "zoomIn") {
-                            $(this).animate({
-                             width: "507px",
-                             height: "374px"
-                             }, "fast");
-                        }
-                        else if (action == "zoomOut") {
-                            $(this).animate({
-                                    width: "300px",
-                                    height: "205px"
-                            }, "fast");
-                        }
-                    }
+                                    left: left,
+                                    }, "fast", function () { resizable_hover.css("z-index", "99") })
+                    }                    
                 }
             });
 
-        $("#features-list img.resizable").click(function () {
-                if (!$(this).hasClass("resized")) {
-                        $(this).fixPosition();
-                        if ($(this).hasClass("right-image")) {
-                            $(this).resize("right", "zoomIn");
-                        }
-                        else if ($(this).hasClass("left-image")) {
-                            console.log($(this).clone());
-                            $(this).resize("left", "zoomIn");
-                        }
+        $("#resizable-hover, img.resized").live("click", function () {
+                if ($(this).attr("id") == "resizable-hover") {
+                   img = $(this).next("img");               
                 }
                 else {
-                    if ($(this).hasClass("right-image")) {
-                        $(this).resize("right", "zoomOut");
-                    }
-                    else if ($(this).hasClass("left-image")) {
-                        $(this).resize("left", "zoomOut");
-                    }
+                    img = $(this);
                 }
-                $(this).toggleClass("resized");
+                resizable_hover.hide();
+                if (img.hasClass("right-image")) {
+                    position = "right";
+                }
+                else if (img.hasClass("left-image")) {
+                    position = "leff";
+                }
+                console.log(position);
+                if (!img.hasClass("resized")) {
+                    img.zooming = true;
+                    img.resize(position, "zoomIn");
+                }
+                else {
+                    img.zooming = false;
+                    img.resize(position, "zoomOut");
+                    img.toggleClass("resized");
+                }
+                img.resize(position, "zoomOut");
+             });
+
+        $("#features-list .feature-image.resizable").mouseover(function () {
+                resizable_hover.prependTo($(this));
+                resizable_hover.show();
             });
 
-        /* TODO: Make this work 
-        $("#features-list img.resizable").mouseover(function () {
-                hover = $('<div id="resizable-zoom-in-hover">');
-                $('<div id="resizable-zoom-in-hover">').insertBefore($(this));
-            });
 
-        $("#resizable-zoom-in-hover").live("mouseout", function () {
-                $(this).remove();
-            });
-        */
+
+        $("#resizable-hover").live("mouseout", function () {
+                $(this).hide();
+            }); 
+       
+
     });
 
 
