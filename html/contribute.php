@@ -5,6 +5,7 @@ include "header.php" ?>
 <div id="content">
   <div id="container">
     <div id="inner-container">
+      <div id="text-content">
       <h2>Contribute to LongoMatch!</h2>
       <h3>Filling Bugs and requesting new features</h3>
       <p>If you find bugs or you want to request a new feature in LongoMatch, you should file a new bug report using GNOME's Bugzilla. You will need to <a href="https://bugzilla.gnome.org/createaccount.cgi">create an account</a> first for filling new bugs or commenting on them.</p>
@@ -63,6 +64,7 @@ include "header.php" ?>
       <p>
 	    If you liked the software and you would like to contribute with a financial help to maintain the web server and invest in new equipment, we accept donations through paypal.</p>
     </div>
+      </div>
   </div>
 </div>
 

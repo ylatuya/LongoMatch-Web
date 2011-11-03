@@ -154,12 +154,13 @@ ul#screenshots h3 { text-align: center; display: block; width: 300px; margin: 1.
    text-align: center;
 }
 #footer { clear: both; background-color: #292929; padding:2ex; text-align: center; color: #737373; font-weight: bold; }
+#footer a#cc { display: block; }
 
 ul#downloads { list-style-type: None; margin-bottom: 2ex; padding: 0; color: white; float: left; }
 
 ul#downloads > li:first-child { margin-left: 0; }
 
-ul#downloads li{
+ul#downloads li {
                     height: 100%;
                     font-size: 90%; 
                     background-image: none;
@@ -172,7 +173,7 @@ ul#downloads li{
                     -moz-border-radius: 4px; 
                     -webkit-border-radius: 4px; 
                     -khtml-border-radius: 4px;
-                    margin: 0 2ex 0 2ex;
+                    margin: 0 1.5ex 0 1.5ex;
                     padding: 1.5ex;
                     text-align: center;
                     width: 5em;
@@ -190,7 +191,7 @@ ul#downloads li:hover { background-color: #333333;
 		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
 
-#features-list { width: 95%; margin: 0 auto;  }
+#features-list, #text-content { width: 95%; margin: 0 auto;  }
 #features-list .feature-info { width: 60%; float: left; }
 #features-list .feature-info.left { float: left; margin-right: 2ex; }
 #features-list .feature-info.right {float: right;   margin-left: 2.5ex; }
