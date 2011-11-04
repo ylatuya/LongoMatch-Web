@@ -62,6 +62,7 @@ include "header.php" ?>
 	    </code>
 	  </ol>
       <p>
+      <h3>Make a donation!!!</h3>
 	    If you liked the software and you would like to contribute with a financial help to maintain the web server and invest in new equipment, we accept donations through paypal.</p>
     </div>
       </div>
