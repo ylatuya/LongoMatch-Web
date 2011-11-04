@@ -22,17 +22,17 @@ include "header.php"
           <div id="info">
             <h1 id="longomatch"><span id="header-first-line">Use <em>LongoMatch</em></span><span id="header-second-line">&amp; go back <em>in time!</em></span></h1>
             <p>LongoMatch is a free video analysis software for sport analysts with unlimited possibilities: <em>Record, Tag, Review, Draw, Edit Videos and much more!</em></p>
-          <div id="video-and-more">
+	   <!-- <div id="video-and-more">
               <div id="video">
                 <a href=""><img src="img/video.png" alt="Play video"/></a>
               </div>
               <ul id="more">
                 <li><a href="features.php">More features</a></li>
-<!--                <li><a href="">More videos</a></li>-->
+		<li><a href="">More videos</a></li>
               </ul>
             </div>
-          </div>
-        </div>
+          </div>-->        
+	  </div>
       </div>
       <div id="features">
         <ul>
@@ -54,8 +54,13 @@ include "header.php"
           </li>
         </ul>
         <div id="download">
-          <a href="downloads.php" title="download">DOWNLOAD</a>
+          <a id="download-button" href="downloads.php" title="download">DOWNLOAD</a>
           <p>LongoMatch v 0.16</p>
+	  <p id="contact">
+	    <span id="contact-us">Contact us!</span>
+	    <a id="facebook" href="http://www.facebook.com/longomatch" title="Facebook"><img src="/img/icono-facebook.png" alt="Facebook"/></a>
+	    <a id="twitter" href="https://twitter.com/#!/longomatch" title="Twitter"><img src="/img/icono-twitter.png" alt="Facebook"/></a>
+	  </p>
         </div>
       </div>
       <div id="news">
@@ -64,11 +69,13 @@ include "header.php"
             <div class="post-col">
               <ul>
                 <li><img src="img/date.png" class="date-img" alt="date"/></li>
+<!--
+
                 <li><img src="img/twitter.png" alt="share by twitter"/></li>
                 <li><img src="img/facebook.png" alt="share by facebook"/></li>
                 <li><img src="img/linkedin.png" alt="share by linkedin"/></li>
                 <li><img src="img/mail.png" alt="share by mail"/></li>
-              </ul>
+              </ul>-->
              </div>
             <div class="post-text first-post last-post">
                 <h2>New release!!</h2>

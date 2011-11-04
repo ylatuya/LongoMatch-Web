@@ -53,7 +53,7 @@ ul {  list-style-position: inside; }
 #watch { margin-top: 4ex; position: absolute; bottom: 0; }
 
 #info { float: right;  width: 55%;  margin-left: 2ex;  margin-right: 2ex;  }
-#info h1 { margin-top:.5ex; padding:0; font-weight: normal; font-size: 320%; line-height: 100%; }
+#info h1 { margin-top:1ex; padding:0; font-weight: normal; font-size: 320%; line-height: 100%; }
 #info p { font-size: 110%; text-align: justify; width: 95%; display:block; margin: 1ex auto 1.5ex auto;}
 #info p em { font-style: normal; font-weight: bold; }
 #info span#header-first-line { display: block; text-align: left; }
@@ -66,15 +66,21 @@ ul {  list-style-position: inside; }
 #info ul#more li:hover { background-color: #333333; }
 
 
-#features { clear: both; background: url('../img/tira_feature.png') repeat-x; overflow: hidden; float: left; width: 100%; height: 161px; font-size: 80%; }
-#features ul { float: left; margin-left: 7em; list-style: none; }
-#features ul li { float: left; color: #cfeba1; width: 10em; margin-right: 4ex;  padding-top: 4ex; cursor: pointer; }
+#features { clear: both; background: url('../img/tira_feature.png') repeat-x; overflow: hidden; float: left; width: 100%; height: 161px; font-size: 75%; }
+#features ul { float: left; margin-left: 7em; list-style: none; font-weight: bold; color: #FFFCFF; text-shadow: 1px 1px #51bE1c; }
+#features ul li { float: left;  width: 11em; margin-right: 4ex;  cursor: pointer; }
 #features ul li.current, #features ul li:hover { /* background: url('../img/current_feature.png') no-repeat top center; */ }
 #features ul li h3 { margin-bottom: .2ex;  }
-#features ul li a { color: #fffcff; text-decoration: none; }
+#features ul li a { color: #fffcff; text-decoration: none; font-weight: bold; }
 #features #download { position: absolute; right: 0; margin-top: 2ex;  margin-right: 6em; }
-#features #download a { text-indent: -9999px; background: url('../img/download.png') no-repeat; display: block; height: 66px; width: 216px;}
-#features #download p { text-align: center; font-size: 80%; margin-top: 1ex; color:#2f4717; font-weight: bold;}
+#features #download a#download-button { text-indent: -9999px; background: url('../img/download.png') no-repeat; display: block; height: 66px; width: 216px;}
+#features #download span#contact-us { float: left; margin-top: .5ex; margin-right: 1ex; color: #FFFCFF; }
+#features #download a#facebook, #features #download a#twitter { display: block; width: 32px; height: 32px; float: left; }
+#features #download p { text-align: center; font-size: 90%; margin-top: 1ex; color:#2f4717; font-weight: bold;}
+#features #download p#contact { float: right; display: block; font-size: 130%; color: white; font-weight: bold;  }
+
+ul#contact-sites { list-style: none; clear: both; margin: 0; }
+ul#contact-sites li { float: left; width: 32px; height; 32px; margin-right: .5ex; }
 
 #news { clear: both; float: left; background-color: #3d5315; color: #d4d6d5; width: 100%; }
 #news h2 { margin-top: .5ex; color: #91b74a; font-size: 120%; }
@@ -203,3 +209,5 @@ ul#downloads li:hover { background-color: #333333;
 #features-list .feature-image { position: relative; width: 300px; height: 205px;}
 #features-list .feature-image.left { float: left;  }
 #features-list .feature-image.right { float: right;  }
+
+p#contact { display: block; clear: both;  }
