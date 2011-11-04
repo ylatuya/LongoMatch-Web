@@ -38,7 +38,7 @@
           <h3>Post-match and real time analysis</h3>
           <p> LongoMatch can be used for post-match analysis supporting the most
           common video formats. But it can also be used for live analysis,
-          capturing from firewire or even without a capture device, beeing able
+          capturing from Firewire or even without a capture device, being able
           to import the video file after the analysis. This feature allows
           decoupling the capture process from the analysis, but having
           it ready as soon as the recording is done.
@@ -60,7 +60,7 @@
           <p> The results of the analysis can be presented in several formats,
           exporting the key plays to a new video file or generating statistics
           reports. With LongoMatch you can easily create video highlights in a
-          few steps, diretly from the analysis window or using playlists.
+          few steps, directly from the analysis window or using playlists.
           Rendering jobs can be queued, making it easier to create videos at the
           same no time.
           </p>
@@ -68,8 +68,10 @@
         <hr/>
         <div class="feature-info left resizable">
           <h3>Tools specially designed for video analysis</h3>
-          <p> The video player is fully controlable with the keyboard,
-          supporting frame-stepping and slow motion. LongoMatch has also a tool
+          <p> Time is important and coding fast even more, so in LongoMatch most
+          action can be performed through shortcuts. The video player can be
+          completely with the keyboard, supporting frame-stepping and slow motion.
+          LongoMatch has also a tool
           for exporting sequential snapshots and a powerful drawing tool.
           </p>
         </div>
@@ -87,7 +89,9 @@
           <p> LongoMatch is licensed under the General Public License (GPLv2),
           and therefore it's free to use and redistribute. Under the woods,
           LongoMatch is powered by excellent open source projects, such as
-          GStreamer, Gtk and Mono.
+          <a href="http://www.gstreamer.net">GStreamer</a>, <a
+          href="http://www.gtk.org">Gtk</a> and
+          <a href="http:www.mono-project.com">Mono.</a>
           </p>
         </div>
     </div>
