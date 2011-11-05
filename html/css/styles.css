@@ -200,7 +200,7 @@ ul#downloads li:hover { background-color: #333333;
 #features-list, #text-content { width: 95%; margin: 0 auto;  }
 #features-list .feature-info { width: 60%; float: left; }
 #features-list .feature-info.left { float: left; margin-right: 2ex; }
-#features-list .feature-info.right {float: right;   margin-left: 2.5ex; }
+#features-list .feature-info.right {float: right;   margin-left: 2ex; }
 #features-list img { width: 300px; height: 205px;  }
 #features-list h3 { margin-top: 0; }
 #features-list hr { clear: both; border: 0; padding: 2ex; }
