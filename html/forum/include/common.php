@@ -8,10 +8,6 @@
  */
 
 
-if (!defined('BASE_URL'))
-	define('BASE_URL', '.././');
-	require BASE_URL.'header.php';
-
 if (!defined('FORUM_ROOT'))
 	exit('The constant FORUM_ROOT must be defined and point to a valid PunBB installation root directory.');
 
@@ -131,3 +127,8 @@ if (!empty($_POST) && (isset($_POST['confirm_cancel']) || (!isset($_POST['csrf_t
 
 
 ($hook = get_hook('co_common')) ? eval($hook) : null;
+
+if (!defined('BASE_URL'))
+	define('BASE_URL', '.././');
+	require BASE_URL.'header.php';
+
