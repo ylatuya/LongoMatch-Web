@@ -8,6 +8,10 @@
  */
 
 
+if (!defined('BASE_URL'))
+	define('BASE_URL', '.././');
+	require BASE_URL.'header.php';
+
 if (!defined('FORUM_ROOT'))
 	exit('The constant FORUM_ROOT must be defined and point to a valid PunBB installation root directory.');
 
