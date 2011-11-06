@@ -13,6 +13,17 @@
     <script language="javascript" src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
     <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
     <script language="javascript" src="js/longomatch.js" type="text/javascript"></script>
+    <!-- Forum stuff -->
+    <link rel="alternate" type="application/rss+xml" href="forum/extern.php?action=feed&amp;type=rss" title="RSS" />
+    <link rel="alternate" type="application/atom+xml" href="forum/extern.php?action=feed&amp;type=atom" title="ATOM" />
+    <link rel="top" href="forum" title="Forum index" />
+    <link rel="search" href="forum/search.php" title="Search" />
+    <link rel="author" href="forum/userlist.php" title="User list" />
+    <link rel="stylesheet" type="text/css" media="screen" href="forum/style/Oxygen/Oxygen.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="forum/style/Oxygen/Oxygen_cs.css" />
+    <script type="text/javascript" src="forum/include/js/common.js"></script>
+    <!-- End of forum stuff -->
+    </head>
 </head>
 <body>
 <div id="header">
