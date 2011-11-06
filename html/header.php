@@ -1,4 +1,4 @@
-<?php define('BASE_URL', 'http://localhost/longomatch/html/')?>
+<?php define('BASE_URL', 'http://longomatch.ylatuya.es/')?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
@@ -42,7 +42,7 @@
     <li class="<?php if ($page == 'home') print 'current' ?>"><a href="<?php print BASE_URL ?>index.php">HOME</a></li>
     <li class="<?php if ($page == 'features') print 'current' ?>"><a href="<?php print BASE_URL ?>features.php">FEATURES</a></li>
     <li class="<?php if ($page == 'downloads') print 'current' ?>"><a href="<?php print BASE_URL ?>downloads.php">DOWNLOADS</a></li>
-    <li class="<?php if ($page == 'forum') print 'current' ?>"><a href="<?php print BASE_URL ?>forum.php">FORUM</a></li>
+    <li class="<?php if ($page == 'forum') print 'current' ?>"><a href="<?php print BASE_URL ?>forum/index.php">FORUM</a></li>
     <li class="<?php if ($page == 'contribute') print 'current' ?>"><a href="<?php print BASE_URL ?>contribute.php">CONTRIBUTE</a></li>
   </ul>
 </div>
