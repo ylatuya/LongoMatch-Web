@@ -35,6 +35,7 @@ include "header.php"
 	  </div>
       </div>
       <div id="features">
+      <div id="inner-features">
         <ul>
           <li class="current">
             <h3><a href="">Live Analysis</a></h3>
@@ -58,10 +59,11 @@ include "header.php"
           <p>LongoMatch v 0.16</p>
 	  <p id="contact">
 	    <span id="contact-us">Contact us!</span>
-	    <a id="facebook" href="http://www.facebook.com/longomatch" title="Facebook"><img src="/img/icono-facebook.png" alt="Facebook"/></a>
-	    <a id="twitter" href="https://twitter.com/#!/longomatch" title="Twitter"><img src="/img/icono-twitter.png" alt="Facebook"/></a>
+	    <a id="facebook" href="http://www.facebook.com/longomatch" title="Facebook"><img src="img/icono-facebook.png" alt="Facebook"/></a>
+	    <a id="twitter" href="https://twitter.com/#!/longomatch" title="Twitter"><img src="img/icono-twitter.png" alt="Facebook"/></a>
 	  </p>
         </div>
+       </div>
       </div>
       <div id="news">
         <div id="blog">
@@ -99,7 +101,7 @@ include "header.php"
         </div>
         <div id="social">     
           <div id="twitter-feed">
-	  <h2>Follow me in <a href="http://twitter.com/#!/LongoMatch">twitter</a></h2>
+	  <h2>Follow us in <a href="http://twitter.com/#!/LongoMatch">twitter</a></h2>
 	  <div id="tweets">
 	  </div>
 <!--          <div class="forum-feed">
