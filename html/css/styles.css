@@ -87,7 +87,6 @@ ul#contact-sites li { float: left; width: 32px; height; 32px; margin-right: .5ex
 #news h2 { margin-top: .5ex; color: #91b74a; font-size: 120%; }
 #news #blog { width: 70%; clear: left;float: left; overflow: hidden;}
 #news #blog .post { clear: left; float: left;  width: 100%; }
-#news #blog .post hr { margin-top: 2ex;  }
 #news #blog .post .post-col { width: 5em; float: left; background-color: #2c3e0e; margin-bottom: -1000px; padding-bottom:1000px; padding-top: 2ex;}
 #news #blog .post .post-col ul {  margin: 0 auto; width: 39px; list-style: none;}  
 #news #blog .post .post-col .date-img {  margin-bottom: 3ex; }
@@ -102,10 +101,10 @@ ul#contact-sites li { float: left; width: 32px; height; 32px; margin-right: .5ex
 #news #blog .post .post-text p.read-more span:hover { background-color: #81a43c;  }
 #news #blog .post .post-text p.read-more span:hover a { color: #2b3a0f; }
 #news #blog .post .post-text p.read-more a { color: #81a43c; text-decoration: none; }
-#news hr { clear: both; height: 3.5x; border-top: none; border-left: none; border-right: none; border-bottom: 3.5px dotted #6D912D; width: 120px; margin: 0 auto; }
+#news span.separator { clear: both; display: block; text-align: center; color: #6D912D; width: 100%;}
 
 
-#news #social { float: left; margin-top: 2ex; padding-left: 2%; width: 26%; }
+#news #social { float: left; margin-top: 2ex; width: 22%; }
 #news #social div#forum p { margin-top: 1ex; margin-bottom: 0; padding-bottom:0; }
 #news #social div#forum p.author { margin-top: 0;  padding-top: 0; }
 #news #social h3 { color: #91b74a; font-size: 120%; margin-bottom: .5ex; }
@@ -114,7 +113,6 @@ ul#contact-sites li { float: left; width: 32px; height; 32px; margin-right: .5ex
 
 #twitter-feed #tweets ul { list-style: none; margin-top: 1ex; }
 #twitter-feed #tweets ul li { margin-bottom: 1ex;  }
-#twitter-feed #tweets ul li hr { margin-top: 1ex; }
 #twitter-feed #tweets ul li a { color: #91B74A; text-decoration: none; }
 #twitter-feed #tweets ul li a:visited { color: #91B74A; }
 #twitter-feed #tweets ul li a:hover { }

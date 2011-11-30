@@ -9,7 +9,7 @@ include "header.php"
              join_text: "auto",
              count: 3,
              loading_text: "loading tweets...",
-             template: "{text}{time}<hr/>"
+             template: '{text}{time}<span class="separator">. . .</span>'
        });
      });
     </script>
@@ -95,7 +95,7 @@ include "header.php"
                      <li>Fixed support for systems wihtout DirectX hardware acceleration</li>
                    </ul>
                  </p>
-                <hr/>
+                <span class="separator">. . .</span>
             </div>
           </div>
         </div>
