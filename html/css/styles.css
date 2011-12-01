@@ -104,7 +104,7 @@ ul#contact-sites li { float: left; width: 32px; height; 32px; margin-right: .5ex
 #news span.separator { clear: both; display: block; text-align: center; color: #6D912D; width: 100%;}
 
 
-#news #social { float: left; margin-top: 2ex; width: 22%; }
+#news #social { float: left; margin-top: 2ex; padding-left: 1ex; width: 22%; }
 #news #social div#forum p { margin-top: 1ex; margin-bottom: 0; padding-bottom:0; }
 #news #social div#forum p.author { margin-top: 0;  padding-top: 0; }
 #news #social h3 { color: #91b74a; font-size: 120%; margin-bottom: .5ex; }

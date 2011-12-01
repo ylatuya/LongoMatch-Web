@@ -63,8 +63,7 @@
         <h3>Fedora/RedHat</h3>
         <p>
           LongoMatch has been packaged for <em>fedora</em> by Thomas Vander Stichele. You
-          can find instructions on how to set up the RPM's repository 
-          <a href="http://thomas.apestaart.org/pkg/"> here </a>
+          can read <a href="http://thomas.apestaart.org/pkg/">instructions</a> on how to set up the RPM's repository.
         </p>
 	<a id="development"></a>
         <h3>Development</h3>
@@ -77,7 +76,7 @@
           same time, so installing the development one will not erase or
           overwritte any data from installed one.
         </p>
-        <p>The windows binaries can be found <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/"> here</a>.</p>
+        <p>You can download the <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/">windows binaries</a>.</p>
         <p>And there is an Ubuntu <a href="https://launchpad.net/~ylatuya/+archive/longomatch-dev"> ppa</a> too.</p>
       </div>
     </div>

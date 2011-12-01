@@ -69,10 +69,8 @@ include "header.php"
         <div id="blog">
           <div class="post">
             <div class="post-col">
-              <ul>
+              <!--<ul>
                 <li><img src="img/date.png" class="date-img" alt="date"/></li>
-<!--
-
                 <li><img src="img/twitter.png" alt="share by twitter"/></li>
                 <li><img src="img/facebook.png" alt="share by facebook"/></li>
                 <li><img src="img/linkedin.png" alt="share by linkedin"/></li>
@@ -81,20 +79,20 @@ include "header.php"
              </div>
             <div class="post-text first-post last-post">
                 <h2>New release!!</h2>
-                <p class="date-post">September 20, 2009 20:40</p>
-                <p>I'm happy to announce the release of LongoMatch 0.16.9! <br>
-                   This release includes a new video converter for video camera's files which <br>
-                   converts problematic files into a format that is more suitable for LongoMatch.<br>
-                   I have also included debug console, to help solve problems in windows and <br>
-                   I have fixed a bug in the multimedia backend that was preventing running <br>
-                   in systems without DirectX hardware acceleration support. <br>
-                   The features of this release are:
+                <p class="date-post">August 28, 2011</p>
+                <p>I'm happy to announce the release of LongoMatch 0.16.9!</p>
+                <p>This release includes a new video converter for video camera's files which 
+                   converts problematic files into a format that is more suitable for LongoMatch.</p>
+                <p>I have also included debug console, to help solve problems in windows and 
+                   I have fixed a bug in the multimedia backend that was preventing running 
+                   in systems without DirectX hardware acceleration support. </p>
+                <p>The features of this release are:</p>
                    <ul id="list">
                      <li>Added video converter for MPEG-TS files</li>
                      <li>Added debug console for Windows</li>
                      <li>Fixed support for systems wihtout DirectX hardware acceleration</li>
                    </ul>
-                 </p>
+		<p>You can download last <a href="/downloads.php">LongoMatch release</a> now.</p> 
                 <span class="separator">. . .</span>
             </div>
           </div>
