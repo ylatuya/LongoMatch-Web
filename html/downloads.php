@@ -57,7 +57,7 @@
         <p>For the best user experience you must have installed a version of
           DirectX 9.0 (or a later version) and have the hardware acceleration
           enabled</p>
-	<a name="ubuntu"/>
+	<a name="ubuntu"></a>
         <h3>Ubuntu/Debian ppa</h3>
         <p>
           LongoMatch is part of Ubuntu since Karmic Koala and can be installed with the packages manager.</p>
@@ -67,7 +67,7 @@
         </code>
         <p>We also recommend to use the latest GStreamer binaries using the following repository:</p>
         <code>sudo add-apt-repository ppa:gstreamer-developers/ppa</code> 
-        <a name="fedora"/>
+    <a name="fedora"></a>
 	<h3>Fedora/RedHat</h3>
         <p>
           LongoMatch has been packaged for <em>fedora</em> by Thomas Vander Stichele. You
