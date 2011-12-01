@@ -35,7 +35,7 @@ ul {  list-style-position: inside; }
 #header-menu ul#menu li { background-color: #a9a9a9; margin-left: .5ex; width: 8em; text-align: center; height: 3ex; padding-top: 1ex; border-radius: 4px 4px 0px 0px; -ms-border-radius: 4px 4px 0px 0px; -moz-border-radius: 4px 4px 0px 0px; -webkit-border-radius: 4px 4px 0px 0px; -khtml-border-radius: 4px 4px 0px 0px; font-weight: bold; }
 #header-menu ul#menu li.current, #header-menu ul#menu li:hover { background-color: #fdfdfd; color: #929292;}
 #header-menu ul#menu li a { text-decoration: none; }
-#header-menu ul#menu li a { color: #545454; }
+#header-menu ul#menu li a { color: #545454; margin-top: -.3ex; display: block; }
 #header-menu ul#menu li.current a { color: #929292; }
 
 
