@@ -91,7 +91,7 @@
           LongoMatch is powered by excellent open source projects, such as
           <a href="http://www.gstreamer.net">GStreamer</a>, <a
           href="http://www.gtk.org">Gtk</a> and
-          <a href="http:www.mono-project.com">Mono.</a>
+          <a href="http://www.mono-project.com">Mono.</a>
           </p>
         </div>
     </div>
