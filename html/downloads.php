@@ -43,6 +43,12 @@
               <em>Devel.</em> 
             </a>
           </li>
+	  <li> 
+            <a href="https://build.opensuse.org/package/show?package=LongoMatch&project=home%3ACyberBLN%3ALongoMatch">
+              <img src="img/opensuse.png"/> 
+              <em>OpenSUSE</em> 
+            </a>
+          </li>
         </ul>
         <h3>Windows</h3>
         <p>
@@ -51,6 +57,7 @@
         <p>For the best user experience you must have installed a version of
           DirectX 9.0 (or a later version) and have the hardware acceleration
           enabled</p>
+	<a name="ubuntu"/>
         <h3>Ubuntu/Debian ppa</h3>
         <p>
           LongoMatch is part of Ubuntu since Karmic Koala and can be installed with the packages manager.</p>
@@ -60,7 +67,8 @@
         </code>
         <p>We also recommend to use the latest GStreamer binaries using the following repository:</p>
         <code>sudo add-apt-repository ppa:gstreamer-developers/ppa</code> 
-        <h3>Fedora/RedHat</h3>
+        <a name="fedora"/>
+	<h3>Fedora/RedHat</h3>
         <p>
           LongoMatch has been packaged for <em>fedora</em> by Thomas Vander Stichele. You
           can read <a href="http://thomas.apestaart.org/pkg/">instructions</a> on how to set up the RPM's repository.

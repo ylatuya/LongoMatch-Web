@@ -178,7 +178,8 @@ ul#downloads li {
                     -moz-border-radius: 4px; 
                     -webkit-border-radius: 4px; 
                     -khtml-border-radius: 4px;
-                    margin: 0 1.5ex 0 1.5ex;
+		    margin-top: 1ex; 
+		    margin-right: 1.5ex;
                     padding: 1.5ex;
                     text-align: center;
                     width: 5em;
@@ -187,13 +188,6 @@ ul#downloads li {
 ul#downloads li a, ul#downloads li a:visited { color: white; text-decoration: none; margin: 0 auto; }
 
 ul#downloads li:hover { background-color: #333333; 
-		-moz-box-shadow: 3px 3px 4px #000;
-		-webkit-box-shadow: 3px 3px 4px #000;
-		box-shadow: 3px 3px 4px #000;
-		/* For IE 8 */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
-		/* For IE 5.5 - 7 */
-		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 } 
 
 #features-list, #text-content { width: 95%; margin: 0 auto;  }
