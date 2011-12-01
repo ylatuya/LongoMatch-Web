@@ -22,7 +22,7 @@ ul {  list-style-position: inside; }
 #logo { float: left; background: url('../img/tira_logo.png') repeat-x; width: 5em; height: 105px; text-align-center; border-right: 1px solid #85a753; }
 #logo img { margin: 10px auto; display: block; }
 
-#header-menu { overflow: hidden; height: 100%; width: 87%;}
+#header-menu { overflow: hidden; height: 100%; width: 86.8%;}
 #header-menu h1 { display: block; float: left; text-indent: -1000px; background: url('../img/title.png') no-repeat; width: 193px; height:65px; margin-top: 1ex; margin-left: 1ex; }
 #header-menu ul { list-style: none;  }
 #header-menu ul li { float: left; }
