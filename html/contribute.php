@@ -56,9 +56,9 @@ include "header.php" ?>
 	      Compile the sources:
 	    </li>
 	    <code>
-	      $ sh autogen.sh <br>
-	      $ make <br>
-	      $ make install <br>
+	      sh autogen.sh <br>
+	      make <br>
+	      make install <br>
 	    </code>
 	  </ol>
       <p>
