@@ -50,7 +50,7 @@ include "header.php"
             <p>Export your playlist to new videos in several formats.</p>
           </li>
           <li>
-            <h3><a href="">Free Sofware!</a></h3>
+            <h3><a href="">Free Software!</a></h3>
             <p>It's licensed under the GNU General Public License (GPL 2)</p>
           </li>
         </ul>
