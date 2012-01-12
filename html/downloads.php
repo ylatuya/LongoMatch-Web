@@ -9,13 +9,13 @@
         <h2>Download <em>LongoMatch</em></h2>
         <ul id="downloads">
           <li> 
-            <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.16.8-1.exe">
+            <a href="http://ftp.acc.umu.se/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.16.9.3.exe">
               <img src="img/windows.png"/> 
               <em>Windows</em>
             </a>
           </li>
           <li > 
-            <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.16.8-1.exe">
+            <a href="http://ftp.acc.umu.se/pub/GNOME/sources/longomatch/0.16/longomatch-0.16.9.tar.bz2">
               <img src="img/tgz.png"/>
               <em>Sources</em>
             </a>
