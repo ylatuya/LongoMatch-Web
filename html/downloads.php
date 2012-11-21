@@ -9,13 +9,19 @@
         <h2>Download <em>LongoMatch</em></h2>
         <ul id="downloads">
           <li> 
-            <a href="http://ftp.acc.umu.se/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.16.9.3.exe">
+            <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.18.2.msi">
               <img src="img/windows.png"/> 
               <em>Windows</em>
             </a>
           </li>
+          <li> 
+            <a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/longomatch/LongoMatch-0.18.2-x86.dmg">
+              <img src="img/mac.png"/> 
+              <em>Mac OS X</em>
+            </a>
+          </li>
           <li > 
-            <a href="http://ftp.acc.umu.se/pub/GNOME/sources/longomatch/0.16/longomatch-0.16.9.tar.bz2">
+            <a href="http://ftp.gnome.org/pub/GNOME/sources/longomatch/0.16/longomatch-0.16.9.tar.bz2">
               <img src="img/tgz.png"/>
               <em>Sources</em>
             </a>
@@ -57,6 +63,11 @@
         <p>For the best user experience you must have installed a version of
           DirectX 9.0 (or a later version) and have the hardware acceleration
           enabled</p>
+        <h3>Mac OS X</h3>
+        <p>
+          LongoMatch is available for Mac OS X Snow Leopard or later.</p>
+        <p>To install it, mount the DMG image and copy LongoMatch to
+           the Applications folder.</p>
 	<a name="ubuntu"></a>
         <h3>Ubuntu/Debian ppa</h3>
         <p>
@@ -74,18 +85,6 @@
           can read <a href="http://thomas.apestaart.org/pkg/">instructions</a> on how to set up the RPM's repository.
         </p>
 	<a id="development"></a>
-        <h3>Development</h3>
-        <p>
-          The 0.17.x series is a development branch to build the next stable
-          release of LongoMatch. You can download it for testing it and
-          help finding bugs, but you must remember that this version is not
-          compatible with the 0.16.x stable version and you won't be able to
-          share projects between them. Both versions can be installed at the
-          same time, so installing the development one will not erase or
-          overwritte any data from installed one.
-        </p>
-        <p>You can download the <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/">windows binaries</a>.</p>
-        <p>And there is an Ubuntu <a href="https://launchpad.net/~ylatuya/+archive/longomatch-dev"> ppa</a> too.</p>
       </div>
     </div>
     <?php
