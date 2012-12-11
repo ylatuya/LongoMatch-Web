@@ -34,7 +34,15 @@
     pageTracker._initData();
     pageTracker._trackPageview();
     </script>
-    </head>
+    <script type="text/javascript">
+    function recordOutboundLink(link, category, action) {
+      try {
+        var myTracker=_gat._getTrackerByName();
+        _gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+        setTimeout('document.location = "' + link.href + '"', 200);
+      }catch(err){}
+    }
+    </script>
 </head>
 <body>
 <div id="header">

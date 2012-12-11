@@ -9,19 +9,22 @@
         <h2>Download <em>LongoMatch</em></h2>
         <ul id="downloads">
           <li> 
-            <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.18.2.msi">
+            <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/longomatch/LongoMatch-0.18.3.msi"
+              onClick="recordOutboundLink(this, 'Downloads', 'Windows');return false;">
               <img src="img/windows.png"/> 
               <em>Windows</em>
             </a>
           </li>
           <li> 
-            <a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/longomatch/LongoMatch-0.18.2-x86.dmg">
+            <a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/longomatch/LongoMatch-0.18.3-x86.dmg"
+              onClick="recordOutboundLink(this, 'Downloads', 'Mac OS X');return false;">
               <img src="img/mac.png"/> 
               <em>Mac OS X</em>
             </a>
           </li>
           <li > 
-            <a href="http://ftp.gnome.org/pub/GNOME/sources/longomatch/0.16/longomatch-0.16.9.tar.bz2">
+            <a href="http://ftp.gnome.org/pub/GNOME/sources/longomatch/0.18/longomatch-0.18.3.tar.bz2"
+              onClick="recordOutboundLink(this, 'Downloads', 'Sources');return false;">
               <img src="img/tgz.png"/>
               <em>Sources</em>
             </a>
