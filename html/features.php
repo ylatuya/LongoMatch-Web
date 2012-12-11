@@ -58,21 +58,20 @@
         <div class="feature-info right resizable">
           <h3>Export your analysis in several formats</h3>
           <p> The results of the analysis can be presented in several formats,
-          exporting the key plays to a new video file or generating statistics
+          exporting the key events to a new video file or generating statistics
           reports. With LongoMatch you can easily create video highlights in a
           few steps, directly from the analysis window or using playlists.
           Rendering jobs can be queued, making it easier to create videos at the
-          same no time.
+          same time.
           </p>
         </div>
         <hr/>
         <div class="feature-info left resizable">
           <h3>Tools specially designed for video analysis</h3>
           <p> Time is important and coding fast even more, so in LongoMatch most
-          action can be performed through shortcuts. The video player can be
-          completely with the keyboard, supporting frame-stepping and slow motion.
-          LongoMatch has also a tool
-          for exporting sequential snapshots and a powerful drawing tool.
+          actions can be performed through shortcuts. The video player can be
+          completely controlled with the keyboard, supporting frame-stepping and slow motion.
+          LongoMatch has also a tool for exporting sequential snapshots and a powerful drawing tool.
           </p>
         </div>
         <div class="feature-image right resizable">
@@ -87,7 +86,7 @@
         <div class="feature-info right">
           <h3>Free and open source</h3>
           <p> LongoMatch is licensed under the General Public License (GPLv2),
-          and therefore it's free to use and redistribute. Under the woods,
+          and therefore it's free to use and redistribute. Under the hood,
           LongoMatch is powered by excellent open source projects, such as
           <a href="http://www.gstreamer.net">GStreamer</a>, <a
           href="http://www.gtk.org">Gtk</a> and
